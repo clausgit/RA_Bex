@@ -1,27 +1,25 @@
 
 
+window.addEventListener('load', function() {
+    new FastClick(document.body);
+}, false);
 
 $(document).ready(function() {
- 
+	
+		global_bex.load_content();// Der ganze Content wird geladen Siehe content_loader.js //
+
 	    //$('a[data-theme="app-ios"]').find('.ui-icon').remove();
 	    $('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
 
+
 		
-
-    var InfiniteRotator =
-    {
-        init: function()
-        {
-
+    var InfiniteRotator = { init: function() {
             //interval between items (in milliseconds)
             var itemInterval = 100;
- 
             //count number of items
             var numberOfItems = 10;
- 
             //set current item
             var currentItem = 1;
- 
             //loop through the items
             var infiniteLoop = setInterval(function(){
                 if(currentItem == numberOfItems -1){currentItem = 1;}else{currentItem++;}
