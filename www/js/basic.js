@@ -1,16 +1,23 @@
 
+var $globalContentID = 0;
+
 window.addEventListener('load', function() {
     new FastClick(document.body);
 }, false);
 
 $(document).ready(function() {
 	
+	
 		global_bex.load_content();// Der ganze Content wird geladen Siehe content_loader.js //
+		//alert($global_content_2_1);
 
 	    //$('a[data-theme="app-ios"]').find('.ui-icon').remove();
 	    $('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
 
-
+		$('a[data-role="button"]').live("click", function(e) {
+			$globalContentID = $(this).data("content_id");   
+			//alert($globalContentID);
+		});
 		
     var InfiniteRotator = { init: function() {
             //interval between items (in milliseconds)
@@ -49,31 +56,7 @@ $(function () {
     }());
 });
 
-/*google.maps.event.addListenerOnce(map, 'idle', function() {
-    google.maps.event.trigger(map, 'resize');
-    map.setCenter(point); // be sure to reset the map center as well
-});*/
 
-//$( '#page_5_1' ).live( 'pagebeforeshow',function(event, ui){
-$( '#page_5_1' ).live( 'pageinit',function(event, ui){
-	
-//alert('Hallo');
-	//$("#map_div").googlemap().getMap().checkResize();				
-	
-	//google.maps.event.trigger($('#map_div').gmap3("get"), "resize");
-	//map.checkResize(); 
-				//$('#map_div').trigger('create');
-				// tell google to resize the map
-				//google.maps.event.trigger(map, 'resize');
-				//resizeMap();
-				
-				//google.maps.event.trigger(map, 'resize');
-			    //map.setCenter(point); // be sure to reset the map center as well
-});
-
-//pagecreate
-//pageinit
-//pageshow
 $( '#page_5_1' ).live( 'pageshow',function(event, ui){
 
 	//------- Google Maps ---------//
@@ -137,12 +120,25 @@ $( '#page_5_1' ).live( 'pageshow',function(event, ui){
 	//google.maps.event.trigger(map,'resize');
 	
 	//setTimeout(function(){map.invalidateSize();}, 1);
+	
+	
 
+	
 
 });
 
-
-
+$( '#content_page_2' ).live( 'pagebeforeshow',function(event, ui){	
+	var temp_HeaderToShow = $global_content['header' + $globalContentID];
+	$("#content_page_2_header").html(temp_HeaderToShow).trigger('create');
+	var temp_ContentToShow = $global_content[$globalContentID];
+	$("#content_page_2_content").html(temp_ContentToShow).trigger('create');
+	$("#select_document").change(function() {
+	    var $temp_document_selected = $(this).val();
+		//alert($temp_document_selected);
+		//window.open($temp_document_selected,'_blank')
+		window.location = ($temp_document_selected); 
+	});
+});
 
 
 
