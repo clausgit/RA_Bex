@@ -19,7 +19,12 @@ $(document).ready(function() {
 			//alert($globalContentID);
 		});
 		
-		$('a[data-theme="app-ios""]').live("click", function(e) {
+		$('a[data-theme="app-ios"]').live("click", function(e) {
+			$globalContentID = $(this).data("content_id");  				
+			//alert($globalContentID);
+		});
+		
+		$('a[data-rel="back"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
 		});
