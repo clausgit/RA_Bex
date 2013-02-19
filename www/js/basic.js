@@ -148,7 +148,12 @@ $( '#content_page_2_3' ).live( 'pagebeforeshow',function(event, ui){
 
 
 
-
+$( '#content_page_2_3_12' ).live( 'pagebeforeshow',function(event, ui){	
+	var temp_HeaderToShow = $global_content['header_' + $globalContentID];
+	$("#content_page_2_3_12_header").html(temp_HeaderToShow).trigger('create');
+	var temp_ContentToShow = $global_content['content_' + $globalContentID];
+	$("#content_page_2_3_12_content").html(temp_ContentToShow).trigger('create');
+});
 
 
 

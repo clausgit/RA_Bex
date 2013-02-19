@@ -45,24 +45,24 @@ global_bex.load_content = function(){
 			Mit der Abtretungserklärung ist es der Staatskasse z.B. im Falle eines Freispruchs nicht möglich mit Ansprüchen gegen Ihren Kostenerstattungsanspruch hinsichtlich der notwendigen Auslagen aufzurechnen.',
 		header_2_3: 'Erstinformationen',
 		content_2_3: '<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_1">Arbeitsrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_2">Arzthaftungsrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_3">Erbrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_4">Familienrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_5">Gewerblicher Rechtsschutz</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_6">Handwerksrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_7">Hochschulrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_8">Jugendstrafrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_9">Mietrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_10">Prüfungsrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_11">Strafrecht</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_12">Marihuanaplantagen</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3_13">Verkehrsrecht</a>',
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_2">Arzthaftungsrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_3">Erbrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_4">Familienrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_5">Gewerblicher Rechtsschutz</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_6">Handwerksrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_7">Hochschulrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_8">Jugendstrafrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_9">Mietrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_10">Prüfungsrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_11">Strafrecht</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_12">Marihuanaplantagen</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_13">Verkehrsrecht</a>',
 		header_2_3_1: 'Arbeitsrecht',
-		content_2_3_1: '<ul><li>Gestaltung von Arbeitsverträgen</li>\
-		<li>Beratung bei Abmahnungen und Kündigungen</li>\
-		<li>Aufhebungsverträge</li>\
-		<li>Streitigkeiten bei Dienstverhältnissen bei öffentlichen Verwaltungen und Betrieben</li>\
-		<li>Bundesweite Vertretung vor allen Arbeits- und Landesarbeitsgerichten</li></ul>\
+		content_2_3_1: '<b>Gestaltung von Arbeitsverträgen</b><br>\
+		<b>Beratung bei Abmahnungen und Kündigungen</b><br>\
+		<b>Aufhebungsverträge</b><br>\
+		<b>Streitigkeiten bei Dienstverhältnissen bei öffentlichen Verwaltungen und Betrieben</b><br>\
+		<b>Bundesweite Vertretung vor allen Arbeits- und Landesarbeitsgerichten</b><br>\
 		<h3>Unser Service für Arbeitgeber</h3>\
 		Als Arbeitgeber haben Sie nicht nur Pflichten, sondern auch Rechte gegenüber Ihren Arbeitnehmern. Wir beraten Sie insbesondere, wie Sie Arbeitsverträge abschließen und gestalten, ob für Ihren Betrieb und für welche Arbeitnehmer das Kündigungsschutzgesetz uneingeschränkt gilt, wann und wie Sie richtig kündigen und wie Sie sich gegen häufige Krankmeldungen und verspätete Arbeitsrückkehr wehren können.<br><br>\
 		Zwar erschwert das Kündigungsschutzgesetz eine arbeitgeberseitige Kündigung. Zulässig ist sie jedoch aus personen-, verhaltens- oder betriebsbedingten Gründen. Wir kennen alle dafür notwendigen Voraussetzungen, genauso wie die wichtigen Gründe, die eine fristlose Kündigung erlauben.<br><br>\
@@ -74,7 +74,273 @@ global_bex.load_content = function(){
 		Darüber hinaus gibt es viele rechtliche Hürden, an denen eine Kündigung des Arbeitgebers scheitern kann, z.B. Einhaltung der Form und Frist der Kündigung. Daneben gibt es besonderen Kündigungsschutz wie z. B. für Schwangere, Mütter und Schwerbehinderte. Bei einer Kündigung müssen von Ihnen Fristen einhalten werden, wenn Sie gegen die Kündigung klagen wollen. Versäumen Sie diese 3-Wochenfrist, die mit dem Zugang der Kündigung zu laufen beginnt, können Sie sich oft nicht mehr vor Gericht gegen die Kündigung wehren.<br><br>\
 		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
 		header_2_3_2: 'Arzthaftungsrecht',
-		content_2_3_2: ''
+		content_2_3_2: '<h3>Behandlungs- und Beratungsfehler im Rahmen der ärztlichen Tätigkeit</h3>\
+		Zwischen Ihnen als Patient und dem behandelnden Arzt wird regelmäßig ein Behandlungsvertrag abgeschlossen. Dieser Vertrag ist rechtlich als Dienstvertrag und nicht als Werkvertrag zu qualifizieren, da der Arzt nicht einen bestimmten Erfolg schuldet, sondern immer nur die fachgerechte Bemühung mit dem Ziel der Heilung oder Linderung. Handelt Ihr Arzt nicht nach den Regeln der Kunst oder verstößt er gegen die Pflicht Sie fachgerecht zu behandeln, ist er Ihnen gegenüber zum Schadensersatz verpflichtet.<br>\
+		<br>\
+		Ihr Arzt haftet aber nicht nur bei einem Behandlungsfehler, sondern auch u.a. bei einem Aufklärungsversäumnis.<br>\
+		<br>\
+		Oft können Ansprüche von Patenten gegen den behandelnden Arzt außergerichtlich durch Verhandlungen mit der Haftpflichtversicherung durchgesetzt werden. Falls die Haftpflichtversicherung die Schadensregulierung ablehnt, besteht die Möglichkeit ein kostenfreies Verfahren bei der für den Arzt zuständigen Ärztekammer unter Einbeziehung eines Gutachters zu betreiben. Die Beurteilung dieses Gutachters bindet nicht das erkennende Gericht in einem anschließenden Rechtsstreit.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten.',
+		header_2_3_3: 'Erbrecht',
+		content_2_3_3: '<b>Beratung in testamentarischen Fragen</b><br>\
+		<b>Erbschein, Erbverzicht, Erbauseinandersetzung</b><br>\
+		<b>Erbersatzansprüche, Pflichtteil</b><br>\
+		<b>Erbvertrag</b><br>\
+		<h3>Unser Service für Erblasser</h3>\
+		Haben Sie Ihr Testament schon gemacht? Wir beraten Sie individuell und besprechen mit Ihnen alle möglichen Konsequenzen. Wir sagen Ihnen z.B. wie Sie Ihren Ehepartner absichern oder Ihren letzten Willen in Einklang mit gesellschaftsrechtlichen Regelungen zur Unternehmensnachfolge bringen. Wenn es kein Testament gibt sieht das Gesetz eine Regelung vor. Zuerst erben die Ehefrau und die Kinder, danach die übrigen Verwandten je nach Verwandtschaftsgrad. Wir können Ihnen in Ihrem Fall genau sagen, wer zuerst erbt und wann andere Verwandte vom Erbe ausgeschlossen sind.<br>\
+		<br>\
+		Ein Testament unterliegt bestimmten Formerfordernissen. Es muss selbst handschriftlich niederschreiben und unterschrieben sein. Bei selbstverfassten Testamenten schleichen sich oft inhaltliche Fehler ein, die fast immer Streit unter den Erben bringen. Eine gerichtliche Klärung dauert oft Jahrzehnte.<br>\
+		<br>\
+		Ohne eindeutiges Testament gibt es also meistens immer Probleme. Wir beraten Sie bei der Erstellung Ihres Testaments, Ihres gemeinschaftlichen Testaments oder Erbvertrages. <br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben. <br>\
+		<br>\
+		<h3>Unser Service für Erben</h3>\
+		Und dann sind Sie Erbe und es kommen viele Fragen auf Sie zu. Wir können Ihnen bei der Beantwortung helfen. Wir sagen Ihnen z.B. ob Sie als Erbe auch für die Schulden des Erblassers haften, ob Sie die Erbschaft ausschlagen sollten, oder wo Sie einen Erbschein brauchen.<br>\
+		<br>\
+		Sie haben in der Regel nur sechs Wochen Zeit um zu entscheiden, ob Sie die Erbschaft ausschlagen wollen, oder das Erbe annehmen.<br>\
+		<br>\
+		Daher ist es wichtig den Wert der Erbschaft zu ermitteln, damit Sie nicht die Schulden des Erblassers bezahlen müssen. Wir beraten Sie über Ihren Pflichtteil, der Ihnen als Ehepartner, Kind oder Enkelkind regelmäßig nicht durch den Erblasser entzogen werden kann.<br>\
+		<br>\
+		Unter bestimmten Voraussetzungen kann das Testament erfolgreich angefochten werden. <br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_4: 'Familienrecht',
+		content_2_3_4: '<b>Ehescheidung</b><br>\
+		<b>Auseinandersetzung und Ausgleichsansprüche</b><br>\
+		<b>Unterhalt</b><br>\
+		<b>Eheliches und vertragsmäßiges Güterrecht</b><br>\
+		<b>Aufenthaltsbestimmungs- und Sorgerecht</b><br>\
+		<br>\
+		Keiner der Ehepartner hätte es zu Beginn seiner Ehe gedacht, aber dann, wenn Einer oder Beide die Scheidung wollen gibt es viele Fragen und Vieles was wir für Sie tun können. Damit neben dem Seelenschmerz nicht auch noch Ihre wirtschaftliche Existenz gefährdet wird ist es wichtig, dass Sie so früh wie möglich mit uns Kontakt aufnehmen.<br>\
+		<br>\
+		Gerade für die Durchsetzung der Ansprüche auf Trennungsunterhalt ist es von Bedeutung, dass schnell ein Aufforderungsschreiben mit Fristsetzung an die Gegenseite erfolgt. Versorgungsausgleich, Trennungsunterhalt, Ehegattenunterhalt, Kindesunterhalt, dies sind alles Rechtsbegriffe, die bislang für Sie ohne Bedeutung waren, aber nun geklärt werden müssen.<br>\
+		<br>\
+		Ob Sie unterhaltsberechtigt oder unterhaltspflichtig sind, oder ob in Ihrem Fall eine „einvernehmliche“ Scheidung, bei der nur einer von Ihnen durch einen Anwalt vertreten ist, eine Lösung sein kann, besprechen Sie besser mit uns.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_5: 'Gewerblicher Rechtsschutz',
+		content_2_3_5: '<b>Patentrecht, Markenrecht und Urheberrecht</b><br>\
+		<b>Erfinderrechte</b><br>\
+		<b>Schutz vor unlauterem Wettbewerb</b><br>\
+		<b>Lizenzverträge</b><br>\
+		<b>Softwareverträge</b><br>\
+		<b>e-business</b><br>\
+		<br>\
+		Sowohl im Wettbewerbsrecht, Urheberrecht, Patentrecht und im Bereich der Erfinderrechte sind wir mit der Geltendmachung und der Abwehr von Unterlassungs-, Beseitigungs-, Auskunfts- und Schadensersatzansprüchen für Sie tätig. Wir setzen diese Schutzrechte für Sie durch. Wir können Ihnen sagen, ob es sinnvoll ist eine Abmahnung und Unterlassungs- und Verpflichtungserklärung zu fertigen, oder wie erfolgsversprechend es ist sich gegen eine Abmahnung zur Wehr zu setzen.<br>\
+		<br>\
+		Gerade im Zeitalter des Internets und der neuen Medien gibt es viele Fragen und Probleme bei denen wir Ihnen helfen können. Wussten Sie, dass auch Stadtpläne urheberrechtlichen Schutz genießen? Wenn Sie ungefragt und ohne Entrichtung einer Lizenzgebühr fremde Stadtpläne auf Ihrer gewerblichen Webseite verwenden um Ihren Kunden eine Wegbeschreibung zu geben, kann dies schnell teuer werden, <br>\
+		<br>\
+		Auch ein fehlerhaftes Impressum kann sich als Wettbewerbsverstoß darstellen und schnell zu einem teueren Rechtsstreit führen. Wir sagen Ihnen was in Ihr Impressum im Internet stehen muss. <br>\
+		<br>\
+		Oft wird das rechtliche Mittel der Abmahnung aber auch als lukrative Einnahmequelle missbraucht. Hier gilt es offensichtliche und unzulässige Massenabmahnungen zu erkennen und sich richtig zu verhalten. Oft ist zu raten sich nicht auf alle Forderungen in der Unterlassungserklärung einer solchen Abmahnung einzulassen. Stattdessen sollte man eine "modifizierte Erklärung" zurückschicken.<br>\
+		<br>\
+		Wir beraten bei der Erstellung von Lizenzverträgen, Softwareverträgen und im Bereich des e-buisiness. Wenn Sie einen online-shop eröffnen und Ihre ABG´s überprüft haben wollen, oder im Internet als Kunde Waren gekauft haben, wir beraten Sie gerne und verhelfen Ihnen zu Ihrem Recht.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen.',
+		header_2_3_6: 'Handwerksrecht',
+		content_2_3_6: '<b>Gestaltung von Werkverträgen</b><br>\
+		<b>Gesellschaftsverträgen, sowie Verträgen bei Geschäftsübernahme</b><br>\
+		<b>Ausarbeitung von Formularen und Geschäftsbedingungen</b><br>\
+		<b>Durchsetzung von Werklohnforderungen und überfälligen Handwerkerrechnungen</b><br>\
+		<b>Beweissicherungsverfahren oder Rechtsstreit steht unmittelbar bevor</b>s<br>\
+		<br>\
+		Jeder Selbstständige hat Angst davor und kennt das Problem. Unbezahlte Rechnungen häufen sich und Vorleistungen an Materialkosten können gerade bei größeren Aufträgen die Einnahmen übersteigen. Wenn ein Rechtsstreit mit Ihrem Auftraggeber ins Haus steht, können nicht erkannte Risiken und verpasste Chancen schnell zu einer Gefährdung der Existenz Ihres Handwerksbetriebes führen.<br>\
+		<br>\
+		Die Rechtslage wird immer komplizierter, insbesondere auch in Fragen der richtigen Gestaltung von Werkverträgen. Hier ist oft schnelles Handeln erforderlich. In vielen Fällen reagieren Auftraggeber erst wenn Sie Ihre Forderung über einen Rechtsanwalt geltend machen.<br>\
+		<br>\
+		Als Ihr Anwalt lösen wir nicht nur gemeinsam mit Ihnen Ihre Probleme. Wir übernehmen gleichzeitig auch die Haftung für unsere Empfehlungen. Wir sind oft kostengünstiger als Sie glauben. In vielen Fällen werden die Kosten unserer Inanspruchnahme von der Gegenseite zu tragen sein.<br>\
+		<br>\
+		Fragen Sie uns gleich beim ersten Gespräch nach den voraussichtlichen Kosten.',
+		header_2_3_7: 'Hochschulrecht',
+		content_2_3_7: '<b>Beratung in Fragen des Hochschulrechts</b><br>\
+		<b>Höhergruppierungsklagen und Abwehr</b><br>\
+		<b>Überprüfung von befristeten Hochschuldienstverträgen</b><br>\
+		<b>Klagen auf unbefristete Weiterbeschäftigung</b><br>\
+		<b>Klagen wegen nicht bestandener Hochschulprüfung und Abwehr</b><br>\
+		<b>Klagen gegen Prüfungsentscheidungen</b><br>\
+		<br>\
+		Bei Höhergruppierungsklagen und Klagen auf unbefristete Weiterbeschäftigung von Mitarbeitern und wissenschaftlichen Mitarbeitern von Hochschulen gibt es zahlreiche Besonderheiten. So haben wissenschaftliche Mitarbeiter nur dann einen Anspruch auf Höhergruppierung, wenn die höherwertigen Tätigkeiten mit Wissen des Dienstherren übertragen wurden. Nicht ausreichend ist es, wenn Ihr unmittelbarer Dienstvorgesetzter Ihnen höherwertige Tätigkeiten, z.B. das Abhalten von Lehrveranstaltungen überträgt, ohne dass Ihr Dienstherr – bei wissenschaftlichen Mitarbeitern der Rektor der Hochschule, hiervon Kenntnis hat.<br>\
+		<br>\
+		Bei einem befristeten Arbeitsvertrag können wir Ihnen sagen, ob die Befristung zulässig erfolgt ist, oder ob Sie nicht einen Anspruch auf unbefristete Weiterbeschäftigung haben.<br>\
+		<br>\
+		Oft ist es schwierig für Prüfungsausschusse bei der Vielzahl der Prüfungsordnungen den Überblick zu behalten. Hier kann z.B. die Dauer einer mündlichen Prüfung, über die in der Prüfungsordnung vorgesehene Zeitspanne hinaus, bereits zu einem formellen Fehler führen. Obwohl die Prüfungskommission dem Prüfling durch die Verlängerung der mündlichen Prüfung oft eine weitere Chance geben möchte, sein Wissen unter Beweis stellen zu können, hat der Prüfling im Einzelfall einen Anspruch auf Wiederholung der Prüfung.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_8: 'Jugendstrafrecht',
+		content_2_3_8: '<b>Verteidigung Jugendlicher oder Heranwachsender</b><br>\
+		<b>Zeugen- und Verletztenbeistand</b><br>\
+		<br>\
+		Ob Ihre Tochter oder Ihr Sohn auf dem Schulweg „abgezockt“, auf dem Schulhof zusammengeschlagen wurde, oder selber diese als Raub bzw. Köperverletzung zu qualifizierenden Straftatbestände verwirklicht hat – die Jugendkriminalität nimmt ständig zu.<br>\
+		<br>\
+		Oft gilt es die Opfer zu schützen, die aus Angst vor Ihren Peinigern nicht mehr zur Schule gehen. Ebenso brauchen aber auch Jugendliche und Heranwachsende einen Strafverteidiger der sich im Jugendstrafrecht auskennt.<br>\
+		<br>\
+		Das Jugendstrafrecht ist ein sogenanntes Sonderstrafrecht und Sonderstrafprozessrecht für junge Täter, die sich zur Zeit ihrer Tat in dem Übergangsstadium zwischen Kindheit und Erwachsenenalter befinden. Diese rechtfertigt, dass sich insbesondere die Rechtsfolgen des Jugendstrafrechts von denen des allgemeinen Strafrechts unterscheiden. Während sich im allgemeinen Strafrecht die Höhe der Strafe maßgeblich nach der Schuld des Täters bemisst, stehen im Jugendstrafrecht fast ausschließlich spezialpräventive, insbesondere erzieherische Gesichtspunkte im Vordergrund. Erziehung, Sozialisation und Resozialisierung bestimmen Art und Maß der Reaktion auf die Straftat. Jugendstrafrecht wird daher auch als Täterstrafrecht bezeichnet. Nicht die Tat, sondern die umfassend gewürdigte Persönlichkeit des Täters steht im Vordergrund.<br>\
+		<br>\
+		Es ist für Jugendliche oft schwer, wenn Sie das erste Mal vor Gericht stehen. Sie brauchen daher einen Rechtsanwalt, der sich in diesem Sonderstrafrecht auskennt und der sich in ihre Situation hineinversetzten kann.<br>\
+		Auch auf Heranwachsende, also Täter die zum Zeitpunkt der Tat noch nicht 21 Jahre alt sind, kann im Einzelfall Jugendstrafrecht zur Anwendung kommen, was sich aufgrund der Rechtsfolgen des Jugendstrafrechts, im Vergleich mit der Straferwartung im allgemeinen Strafrecht günstig auswirkt.<br>\
+		<br>\
+		Darüber hinaus ist Jugendlichen in vielen Fällen anzuraten einen Anwalt als Beistand zu beauftragen, wenn sie als Zeuge bzw. Opfer vor Gericht aussagen sollen. Vor Gericht können Jugendliche verängstigt sein, wenn sie in Gegenwart des Täters im Gerichtssaal aussagen sollen. Hier ist es wichtig einen Rechtsbeistand zu haben, der sich mit den Rechten und Pflichten eines Zeuge bzw. Opfers auskennt.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_9: 'Mietrecht',
+		content_2_3_9: '<b>Gewerbliches und privates Mietrecht</b><br>\
+		<b>Gestaltung von gewerblichen und privaten Mietverträgen</b><br>\
+		<b>Kündigungs- und Räumungsprozesse</b><br>\
+		<b>Schadensersatzansprüche</b><br>\
+		<h3>Unser Service für Vermieter</h3>\
+		Das Mietrecht in Deutschland wird immer komplizierter. Viele Probleme lassen sich bereits durch einen in Ihrem Sinne gestalteten schriftlichen gewerblichen oder privaten Mietvertrag vermeiden. Wenn der Mieter nicht mehr zahlt ist schnelles Handeln erforderlich, damit Ihnen nicht durch ausbleibende Mietzinszahlungen hoher Schaden entsteht. Bei Eigenbedarf, Kündigungs- und Räumungsprozessen gilt es zahlreiche Dinge zu beachten.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen. <br>\
+		Unser Service für Mieter<br>\
+		<br>\
+		Ob Ihr Vermieter Ihnen die Kündigung ausgesprochen hat, oder ob in Ihre Mietswohnung die Heizung ausgefallen ist und Sie die Miete mindern wollen. Wir kennen Ihre Rechte als Mieter.<br>\
+		<br>\
+		Wir beraten Sie, ob die Kündigung wirksam ist, oder ob Sie der Kündigung wiedersprechen können, z.B. weil die Kündigung für Sie eine besondere Härte bedeuten würde. Oft kann auch in diesen Fällen mit dem Vermieter verhandelt und gegen Abstandszahlung ein Aufhebungsvertrag geschlossen werden.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen. Wir können Ihnen außerdem sagen, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_10: 'Prüfungsrecht',
+		content_2_3_10: '<h3>Wahrnehmung der Prüflingsinteressen bei Prüfungsentscheidungen</h3>\
+		Das letztmalige Nichtbestehen einer Prüfung muss nicht das Ende Ihres Studiums bedeuten. Prüfungsentscheidungen können in vielen Fällen erfolgreich im Widerspruchsverfahren oder vor den Verwaltungsgerichten angefochten werden. Oft werden von der Prüfungskommission bereits Prüfungen formell fehlerhaft durchgeführt. <br>\
+		<br>\
+		So ist für mündliche Prüfungen z.B. die Dauer der Prüfung in der einschlägigen Prüfungsordnung vorgegeben. Dauert die mündliche Prüfung länger als vorgeschrieben, besteht im Einzellall ein Anspruch auf einen weiteren Wiederholungsversuch. Prüfer können von Prüfungen wegen Befangenheit ausgeschlossen werden.<br>\
+		<br>\
+		Auch inhaltlich darf eine Beantwortung einer Prüfungsfrage dann nicht als falsch gewertet werden, wenn die Frage so gestellt ist, dass auch diese Beantwort möglich ist. Der Prüfer muss seine Bewertung nachvollziehbar begründen. Der Prüfer darf auch nichts vermissen, was nicht in der Aufgabenstellung gefordert war. Als Prüfling hat man einen sogenannten Antwortenspielraum. Zudem gilt das Willkürverbot und dass Gebot der Chancengleichheit.<br>\
+		<br>\
+		Fehler der Prüfungsbehörden können wegen der zeitlichen Verzögerungen, z.B. bei dadurch bedingten, nachweislich verspäteten Einstieg in das Berufsleben, zu erheblichen Schadensersatzforderungen des Prüflings führen.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen. Wir sagen Ihnen außerdem, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_2_3_11: 'Strafrecht',
+		content_2_3_11: '<b>Verteidigung bei Strafbefehl oder Anklage, Verhaftung, vorläufige Festnahme und Beschlagnahme</b><br>\
+		<b>Haftprüfung und Haftbeschwerde</b><br>\
+		<b>Wahrung der Opferinteressen im Rahmen der Nebenklagevertretung und Adhäsionsverfahren</b><br>\
+		<b>Zeugen und Verletztenbeistand</b><br>\
+		<br>\
+		Wir sind im Strafrecht bei Gewaltdelikten, Wirtschaftsstrafrecht, Betäubungsmittelstrafrecht sowie Bußgeldverfahren in allen Instanzen für Sie tätig. Wir nehmen Ihre Rechte im Rahmen einer Strafverteidigung, auch in Mord- und Totschlagsverfahren war. Selbstverständlich sind wir auch im Rahmen der Nebenklagevertretung als Opferanwalt für Sie tätig. <br>\
+		<br>\
+		Als Strafverteidiger sind wir neben der Staatsanwaltschaft und dem Gericht ein unabhängiges, selbständiges Organ der Rechtspflege und Interessenvertreter unserer Mandanten. Wir sind als Wahlverteidiger, und falls eine Beiordnung erfolgt auch als Pflichtverteidiger tätig.<br>\
+		<br>\
+		Zu jedem Zeitpunkt des Strafverfahrens, also im Vorverfahren, Zwischenverfahren und in der Hauptverhandlung und in jeder Instanz, haben Sie als Beschuldigte das Recht, sich von einem Strafverteidiger vertreten zu lassen.<br>\
+		<br>\
+		Oft werden bereits im Ermittlungsverfahren die Weichen für einen günstigen Ausgang des Strafverfahrens gestellt, in dem wir als Strafverteidiger oder Nebenklagevertreter bereits entscheidend mitwirken können.<br>\
+		<br>\
+		Je eher wir von Ihnen als Beschuldigten als Strafverteidiger beauftragt werden, desto besser sind die Verteidigungsmöglichkeiten für Sie. Als Beschuldigter sollte man unbedingt einen Strafverteidiger hinzuziehen, bevor man Angaben zur Sache macht. Fehler im Ermittlungsverfahren sind im Rahmen des Hauptverfahrens nur schwer zu korrigieren. Daher sagen Sie im Ermittlungsverfahren bitte nichts ohne Ihren Anwalt. Bereits im Ermittlungsverfahren prüfen wir alle Möglichkeiten, um eine Einstellung des Verfahrens zu erreichen und ein aufwändiges und mit weiteren Kosten verbundenes Hauptverfahren möglichst zu vermeiden.<br>\
+		<br>\
+		Als Rechtsanwälte sind wir zur Verschwiegenheit verpflichtet.<br>\
+		<br>\
+		Verhaftungen, Durchsuchungen und Beschlagnahmen finden häufig gerade dann statt, wenn die meisten Anwälte nicht zu erreichen sind. Die Anwaltskanzlei bietet Ihnen daher für einen solchen Fall eine Notrufnummer unter der Mobilnummer 0177 29 8 19 66<br>\
+		<br>\
+		Bereits die Situation Beschuldigter in einem Strafverfahren zu sein, kann sich bereits existenzbedrohend für Sie auswirken, wenn z.B. Vermögen beschlagnahmt wird, oder wenn Sie in Untersuchungshaft genommen werden. Hier ist schnelles Handeln erforderlich.<br>\
+		<br>\
+		Fragen Sie uns gleich beim ersten Gespräch nach den voraussichtlichen Kosten. Wir sagen Ihnen außerdem, ob in Ihrem Fall eine Beiordnung als Ihr Pflichtverteidiger möglich ist.',
+		header_2_3_12: 'Marihuanaplantagen',
+		content_2_3_12: '<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_1">Allgemein</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_2">Entdeckungsrisiko</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_3">Die nicht geringe Menge </a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_4">Unterscheidung Erntehelfer, Mittäter oder Bande</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_5">Grundsatz Therapie statt Strafe</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_6">Vorschriften des Betäubungsmittelstrafrechts</a>',
+		header_2_3_12_1: 'Allgemein',
+		content_2_3_12_1: 'Bundesweit, insbesondere aber in Nordrhein-Westfalen, steigt die Anzahl der Fälle in denen sogenannte Marihuanaplantagen ausgehoben werden stetig an. <br>\
+		<br>\
+		Fast täglich lesen wir in der überregionalen Presse über Sensationsfunde der Strafverfolgungsbehörden und Mahmutverfahren vor Großen Strafkammern. <br>\
+		<br>\
+		Ein wesentlicher Grund hierfür ist, dass die Strafverfolgungsbehörden in den Niederlanden der organisierten Rauschgiftkriminalität und dem illegalen Anbau von Marihuana massiv den Kampf angesagt haben. <br>\
+		<br>\
+		Neben verdeckten Ermittlern, einer Auswertung der Stromzählern und dem Einsatz von Helikoptern und Wärmelichtkameras sind seit Anfang 2009 nun auch unbemannte Drohnen im Einsatz, die den niederländischen Strafverfolgungsbehörden beim Aufspüren von Marihuanaplantagen und bei der Bekämpfung des Haschisch-Schmuggels helfen. <br>\
+		<br>\
+		Die erste Drohne wird derzeit in der an Nordrhein-Westfalen grenzenden Region Achterhoek, Provinz Gelderland, eingesetzt. Das eigens entwickelte Fluggerät ist ausgerüstet mit Diagnose- und Überwachungsinstrumenten, die Marihuanapflanzen aus der Luft erkennen können. Nach Erhebungen niederländischen Strafverfolgungsbehörden ist der illegale Marihuanaanbau in den Niederlanden längst zu einem Milliarden-Exportgeschäft geworden. Nur zehn Prozent des in den Niederlanden erzeugten Haschisch und Marihuana wird über die Coffeeshops vertrieben, wo Kunden geringe Mengen der Drogen legal erwerben und rauchen dürfen. Der enorme Rest wird ins Ausland, oft über die mehr als 570 Kilometer lange deutsch-niederländische Grenze geschmuggelt. <br>\
+		<br>\
+		Grund genug hier aus Strafverteidigersicht auf einige wesentliche strafrechtliche Besonderheiten im Zusammenhang mit dem Anbau von Marihuana in Deutschland hinzuweisen.',
+		header_2_3_12_2: 'Entdeckungsrisiko',
+		content_2_3_12_2: '<h3>Entdeckungsrisiko einer Marihuanaplantage in Deutschland</h3>\
+		Auch wenn die Strafverfolgungsbehörden in Deutschland noch nicht wie die Niederländer mit einer Drohne Marihuanaplantagen aufspüren können, ist das Enddeckungsrisiko nicht zu unterschätzen. Oft erfolgt der erste Hinweis von unbeteiligten Dritte, von verdeckten Ermittler oder Aufgrund von Erkenntnissen die im Rahmen von verdeckten Ermittlungen, wie Telefonüberwachungen etc. gewonnen wurden. <br>\
+		<br>\
+		In einer Vielzahl der Fälle führt aber auch die kleine Kronzeugenregelung des § 31 BtMG dazu, dass Mittäter, oder Teilnehmer wie Erntehelfer, wenn sie einmal festgenommen werden ihr Wissen auch von weiteren Drogengeschäften oder Marihuanaplantagen gegenüber den Strafverfolgungsbehörden offenbaren um in den Genuss einer Strafmilderung zu kommen.',
+		header_2_3_12_3: 'Die nicht geringe Menge',
+		content_2_3_12_3: '<h3>Die nicht geringe Menge bei einer Marihuanaplantage</h3>\
+		Das Betäubungsmittelstrafrecht unterscheidet allein aufgrund des Vorliegens einer „Normalmenge“ oder einer nicht geringen Menge, ob z. B. von einem Vergehen § 29 BtMG, mit einem Strafrahmen bis zu fünf Jahren, oder von einem Verbrechen § 29 a BtMG, mit einem Strafrahmen nicht unter einem Jahr, auszugehen ist. Der BGH hat die Grenze zwischen der geringen und nicht geringen Menge mit 500 Konsumeinheiten von 15mg THC = 7,5 g THC (Tetrahydrocannabinol) festlegt. Wer also Marihuana besitzt, dass insgesamt mehr als 7,5 g THC enthält, ist Besitzer einer nicht geringen Menge an Marihuana. Bei Marihuanaplantagen ist immer der Zeitpunkt der Beschlagnahme entscheident, da nur der THC-Gehalt zum Zeitpunkt der Beschlagnahme als objektives Kriterium Berücksichtigung finden kann. Bei der Bestimmung des THC-Gehaltes werden alle Bestandteile der Pflanzen, Blätter Blühten und Stängel mit einbezogen. Der Sachverständige wird bei der Ermittlung des Wirkstoffgehaltes einer Marihuanaplantage Stichproben unter Einhaltung bestehender Richtlinien vorzunehmen und diese Wirkstoffwerte hochzurechnen haben. Es lässt sich aufgrund der unterschiedlichen Pflanzensorten und mittlerweile genetischen Manipulation der Pflanzen nur schwerlich bestimmen, ab welcher genauen Anzahl von Marihuanaplanzen der Grenzwert zum THC-Gehalt einer nicht geringen Menge bereits erreicht ist. Es besteht aber nach unserer Erfahrung bereits bei 10 erntereifen Marihuanapflanzen die Möglichkeit das der Grenzwert zur nicht geringen Menge überschritten ist.',
+		header_2_3_12_4: 'Unterscheidung Erntehelfer, Mittäter oder Bande',
+		content_2_3_12_4: '<h3>Die wesentliche Unterscheidung zwischen Erntehelfer, Mittäter oder Bande</h3>\
+		Ganz wesentlich für die Straferwartung ist wie Sie in den Betrieb der Marihuanaplantage eingebunden waren bzw. wie Ihr Tatbeitrag zu werten ist. Haben Sie einen untergeordneten Tatbeitrag geleistet und waren auch nicht an dem Ertrag bzw. dem Gewinn der Marihuanaplantage beteiligt, wird man Ihren Tatbeitrag als sogenannter Erntehelfer lediglich als bloße Beihilfehandlung zur Förderung einer Haupttat eines „Anderen“ werten können. In diesem Fall können Sie mit einer Strafmilderung und einem geringeren Strafrahmen rechnen. Wurde die Marihuanaplantage dagegen in Ihren Räumen betrieben oder hatten Sie die Schlüsselgewalt und waren Sie an dem Ertrag der Ernte beteiligt wird man von einer Täterschaft ausgehen.<br><br>\
+		Wichtig zu wissen in diesem Zusammenhang ist, dass das Betäubungsmittelstrafrecht eine höherem Strafrahmen für den Fall vorzieht, dass Sie als Mitglied einer Bande gehandelt haben. Die Annahme bandenmäßiger Begehungsweise, die zu einer Mindeststrafe von 5 Jahren bei einer Marihuanaplantage mit einer nicht geringen Menge THC führt, liegt nach neuerer Rechtsprechung vor, wenn mindestens 3 Personen beteiligt gewesen waren und wenn es sich um eine auf Dauer angelegte Verbindung mit dem Zweck der fortgesetzten Begehung von mehreren selbständigen im Einzelnen noch ungewissen Delikten gehandelt hat (BGH, B v 18.04.2001 – 3 StR 69/01). Es bedarf also keiner ausdrücklichen Bandenabrede, keines gefestigten Bandenwillens und keines Tätigwerdens im übergeordneten Bandeninteresse mehr. An einer Verbindung zur gemeinsamen Tatbegehung fehle es aber, wenn sich die Beteiligten auf Käufer- und Verkäuferseite gegenüberstehen.',
+		header_2_3_12_5: 'Grundsatz Therapie statt Strafe',
+		content_2_3_12_5: '<h3>Der Grundsatz Therapie statt Strafe bei Betäubungsmittelabhängigkeit</h3>\
+		Sofern eine Freiheitsstrafe im Raum steht, die nicht mehr zur Bewährung ausgesetzt werden und Ihre Tat im Zusammenhang mit Ihrem Drogenkonsum stehen, kann selbstverständlich eine Zurückstellung der Strafvollstreckung bewirken werden. Voraussetzung dafür ist, dass Sie zu nicht mehr als zwei Jahren Freiheitsstrafe verurteilt werden.',
+		header_2_3_12_6: 'Vorschriften des Betäubungsmittelstrafrechts',
+		content_2_3_12_6: '<h3>Die wesentlichen Vorschriften des Betäubungsmittelstrafrechts</h3>\
+		<h3>§ 29 Straftaten </h3>\
+		(1) Mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe wird bestraft, wer<br>\
+		1. Betäubungsmittel unerlaubt anbaut, herstellt, mit ihnen Handel treibt, sie, ohne Handel zu treiben, einführt, ausführt, veräußert, abgibt, sonst in den Verkehr bringt, erwirbt oder sich in sonstiger Weise verschafft, <br>\
+		2. eine ausgenommene Zubereitung (§ 2 Abs. 1 Nr. 3) ohne Erlaubnis nach § 3 Abs. 1 Nr. 2 herstellt,<br>\
+		3. Betäubungsmittel besitzt, ohne zugleich im Besitz einer schriftlichen Erlaubnis für den Erwerb zu sein,<br>\
+		4. (weggefallen)<br>\
+		5. entgegen § 11 Abs. 1 Satz 2 Betäubungsmittel durchführt,<br>\
+		6. entgegen § 13 Abs. 1 Betäubungsmittel<br>\
+		a) verschreibt,<br>\
+		b) verabreicht oder zum unmittelbaren Verbrauch überlässt,<br>\
+		7. entgegen § 13 Abs. 2 Betäubungsmittel in einer Apotheke oder tierärztlichen Hausapotheke abgibt,<br>\
+		8. entgegen § 14 Abs. 5 für Betäubungsmittel wirbt,<br>\
+		9. unrichtige oder unvollständige Angaben macht, um für sich oder einen anderen oder für ein Tier die Verschreibung eines Betäubungsmittels zu erlangen,<br>\
+		10. einem anderen eine Gelegenheit zum unbefugten Erwerb oder zur unbefugten Abgabe von Betäubungsmitteln verschafft oder gewährt, eine solche Gelegenheit öffentlich oder eigennützig mitteilt oder einen anderen zum unbefugten Verbrauch von Betäubungsmitteln verleitet,<br>\
+		11. ohne Erlaubnis nach § 10a einem anderen eine Gelegenheit zum unbefugten Verbrauch von Betäubungsmitteln verschafft oder gewährt, oder wer eine außerhalb einer Einrichtung nach § 10a bestehende Gelegenheit zu einem solchen Verbrauch eigennützig oder öffentlich mitteilt,<br>\
+		12. öffentlich, in einer Versammlung oder durch Verbreiten von Schriften (§ 11 Abs. 3 des Strafgesetzbuches) dazu auffordert, Betäubungsmittel zu verbrauchen, die nicht zulässigerweise verschrieben worden sind,<br>\
+		13. Geldmittel oder andere Vermögensgegenstände einem anderen für eine rechtswidrige Tat nach Nummern 1, 5, 6, 7, 10, 11 oder 12 bereitstellt,<br>\
+		14. einer Rechtsverordnung nach § 11 Abs. 2 Satz 2 Nr. 1 oder § 13 Abs. 3 Satz 2 Nr. 1 oder 5 zuwiderhandelt, soweit sie für einen bestimmten Tatbestand auf diese Strafvorschrift verweist.<br>\
+		Die Abgabe von sterilen Einmalspritzen an Betäubungsmittelabhängige und die öffentliche Information darüber sind kein Verschaffen und kein öffentliches Mitteilen einer Gelegenheit zum Verbrauch nach Satz 1 Nr. 11. (2) In den Fällen des Absatzes 1 Satz 1 Nr. 1, 2, 5 oder 6 Buchstabe b ist der Versuch strafbar. <br>\
+		(3) In besonders schweren Fällen ist die Strafe Freiheitsstrafe nicht unter einem Jahr. Ein besonders schwerer Fall liegt in der Regel vor, wenn der Täter 1. in den Fällen des Absatzes 1 Satz 1 Nr. 1, 5, 6, 10, 11 oder 13 gewerbsmäßig handelt,<br>\
+		2. durch eine der in Absatz 1 Satz 1 Nr. 1, 6 oder 7 bezeichneten Handlungen die Gesundheit mehrerer Menschen gefährdet.<br>\
+		(4) Handelt der Täter in den Fällen des Absatzes 1 Satz 1 Nr. 1, 2, 5, 6 Buchstabe b, Nr. 10 oder 11 fahrlässig, so ist die Strafe Freiheitsstrafe bis zu einem Jahr oder Geldstrafe. <br>\
+		(5) Das Gericht kann von einer Bestrafung nach den Absätzen 1, 2 und 4 absehen, wenn der Täter die Betäubungsmittel lediglich zum Eigenverbrauch in geringer Menge anbaut, herstellt, einführt, ausführt, durchführt, erwirbt, sich in sonstiger Weise verschafft oder besitzt. <br>\
+		(6) Die Vorschriften des Absatzes 1 Satz 1 Nr. 1 sind, soweit sie das Handeltreiben, Abgeben oder Veräußern betreffen, auch anzuwenden, wenn sich die Handlung auf Stoffe oder Zubereitungen bezieht, die nicht Betäubungsmittel sind, aber als solche ausgegeben werden. <br>\
+		<br>\
+		<h3>§ 29a Straftaten</h3>\
+		(1) Mit Freiheitsstrafe nicht unter einem Jahr wird bestraft, wer<br>\
+		1. als Person über 21 Jahre Betäubungsmittel unerlaubt an eine Person unter 18 Jahren abgibt oder sie<br>\
+		ihr entgegen § 13 Abs. 1 verabreicht oder zum unmittelbaren Verbrauch überläßt oder<br>\
+		2. mit Betäubungsmitteln in nicht geringer Menge unerlaubt Handel treibt, sie in nicht geringer Menge herstellt oder abgibt oder sie besitzt, ohne sie auf Grund einer Erlaubnis nach § 3 Abs. 1 erlangt zu haben. <br>\
+		(2) In minder schweren Fällen ist die Strafe Freiheitsstrafe von drei Monaten bis zu fünf Jahren. <br>\
+		<br>\
+		<h3>§ 30 Straftaten</h3>\
+		(1) Mit Freiheitsstrafe nicht unter zwei Jahren wird bestraft, wer<br>\
+		1. Betäubungsmittel unerlaubt anbaut, herstellt oder mit ihnen Handel treibt (§ 29 Abs. 1 Satz 1 Nr. 1) und dabei als Mitglied einer Bande handelt, die sich zur fortgesetzten Begehung solcher Taten verbunden hat,<br>\
+		2. im Falle des § 29a Abs. 1 Nr. 1 gewerbsmäßig handelt,<br>\
+		3. Betäubungsmittel abgibt, einem anderen verabreicht oder z<<br>\
+		4. Betäubungsmittel in nicht geringer Menge ohne Erlaubnis nach § 3 Abs. 1 Nr. 1 einführt. <br>\
+		(2) In minder schweren Fällen ist die Strafe Freiheitsstrafe von drei Monaten bis zu fünf Jahren.<br>\
+		<br>\
+		<h3>§ 30a Straftaten</h3>\
+		(1) Mit Freiheitsstrafe nicht unter fünf Jahren wird bestraft, wer Betäubungsmittel in nicht geringer Menge unerlaubt anbaut, herstellt, mit ihnen Handel treibt, sie ein- oder ausführt (§ 29 Abs. 1 Satz 1 Nr. 1) und dabei als Mitglied einer Bande handelt, die sich zur fortgesetzten Begehung solcher Taten verbunden hat. <br>\
+		(2) Ebenso wird bestraft, wer<br>\
+		1. als Person über 21 Jahre eine Person unter 18 Jahren bestimmt, mit Betäubungsmitteln unerlaubt Handel zu treiben, sie, ohne Handel zu treiben, einzuführen, auszuführen, zu veräußern, abzugeben oder sonst in den Verkehr zu bringen oder eine dieser Handlungen zu fördern, oder<br>\
+		2. mit Betäubungsmitteln in nicht geringer Menge unerlaubt Handel treibt oder sie, ohne Handel zu treiben, einführt, ausführt oder sich verschafft und dabei eine Schusswaffe oder sonstige Gegenstände mit sich führt, die ihrer Art nach zur Verletzung von Personen geeignet und bestimmt sind.<br>\
+		(3) In minder schweren Fällen ist die Strafe Freiheitsstrafe von sechs Monaten bis zu fünf Jahren. <br>\
+		<br>\
+		<h3>§ 30b Straftaten</h3>\
+		§ 129 des Strafgesetzbuches gilt auch dann, wenn eine Vereinigung, deren Zwecke oder deren Tätigkeit auf den unbefugten Vertrieb von Betäubungsmitteln im Sinne des § 6 Nr. 5 des Strafgesetzbuches gerichtet sind, nicht oder nicht nur im Inland besteht. <br>\
+		<br>\
+		<h3>§ 30c Vermögensstrafe</h3>\
+		(1) In den Fällen des § 29 Abs. 1 Nr. 1, 5, 6, 10, 11 und 13 ist § 43a des Strafgesetzbuches anzuwenden. Dies gilt nicht, soweit der Täter Betäubungsmittel, ohne mit ihnen Handel zu treiben, veräußert, abgibt, erwirbt oder sich in sonstiger Weise verschafft. <br>\
+		(2) In den Fällen der §§ 29a, 30, 30a und 30b ist § 43a des Strafgesetzbuches anzuwenden. <br>\
+		§ 31 Strafmilderung oder Absehen von Strafe <br>\
+		Das Gericht kann die Strafe nach seinem Ermessen mildern (§ 49 Abs. 2 des Strafgesetzbuches) oder von einer Bestrafung nach § 29 Abs. 1, 2, 4 oder 6 absehen, wenn der Täter<br>\
+		1. durch freiwillige Offenbarung seines Wissens wesentlich dazu beigetragen hat, dass die Tat über seinen eigenen Tatbeitrag hinaus aufgedeckt werden konnte, oder<br>\
+		2. freiwillig sein Wissen so rechtzeitig einer Dienststelle offenbart, das Straftaten nach § 29 Abs. 3, § 29a Abs. 1, § 30 Abs. 1, § 30a Abs. 1 von deren Planung er weiß, noch verhindert werden können. <br>\
+		<br>\
+		<h3>§ 31a Absehen von der Verfolgung</h3>\
+		(1) Hat das Verfahren ein Vergehen nach § 29 Abs. 1, 2 oder 4 zum Gegenstand, so kann die Staatsanwaltschaft von der Verfolgung absehen, wenn die Schuld des Täters als gering anzusehen wäre, kein öffentliches Interesse an der Strafverfolgung besteht und der Täter die Betäubungsmittel lediglich zum Eigenverbrauch in geringer Menge anbaut, herstellt, einführt, ausführt, durchführt, erwirbt, sich in sonstiger Weise verschafft oder besitzt. Von der Verfolgung soll abgesehen werden, wenn der Täter in einem Drogenkonsumraum Betäubungsmittel lediglich zum Eigenverbrauch, der nach § 10a geduldet werden kann, in geringer Menge besitzt, ohne zugleich im Besitz einer schriftlichen Erlaubnis für den Erwerb zu sein. <br>\
+		(2) Ist die Klage bereits erhoben, so kann das Gericht in jeder Lage des Verfahrens unter den Voraussetzungen des Absatzes 1 mit Zustimmung der Staatsanwaltschaft und des Angeschuldigten das Verfahren einstellen. Der Zustimmung des Angeschuldigten bedarf es nicht, wenn die Hauptverhandlung aus den in § 205 der Strafprozessordnung angeführten Gründen nicht durchgeführt werden kann oder in den Fällen des § 231 Abs. 2 der Strafprozessordnung und der §§ 232 und 233 der Strafprozessordnung in seiner Abwesenheit durchgeführt wird. Die Entscheidung ergeht durch Beschluss. Der Beschluss ist nicht anfechtbar.',		
+		header_2_3_13: 'Verkehrsrecht',
+		content_2_3_13: '<b>Schadensregulierung bei Verkehrsunfällen</b><br>\
+		<b>Bußgeldverfahren</b><br>\
+		<b>Führerscheinentzug</b><br>\
+		<br>\
+		In verkehrsrechtlichen Angelegenheiten sollten Sie Ihre Ansprüche mit unserer Hilfe durchsetzen. Selbst wenn Sie keine Schuld an dem Unfall trifft ist die Auseinandersetzung mit der gegnerischen Versicherung oft ohne Rechtsanwalt schwierig. Im Zweifel übersehen Sie Ansprüche die Ihnen zustehen. <br>\
+		<br>\
+		Wir können Ihnen sagen ob Sie einen Anspruch auf Schmerzensgeld, Wertminderung, Nutzungsausfall oder Haushaltsführungsschaden haben, ob Sie einen Sachverständigen beauftragen sollen und was bei der Inanspruchnahme eines Mietwagens zu beachten ist. In jedem Fall sorgen wir für eine schnellstmögliche Abwicklung.<br>\
+		<br>\
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Bei Verkehrsunfällen sind die Anwaltskosten im Regelfall ohnehin von der gegnerischen Versicherung zu zahlen. Wir sagen Ihnen außerdem, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.'
 			};
 
 }
