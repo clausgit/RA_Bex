@@ -146,15 +146,14 @@
 			<div  data-role="page" id="page_2" data-theme="a">
 				<!-- Header -->
 				<div data-role="header" style="height: 38px !important;" data-position="fixed">
-					<a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" >Zurück</a>
 					<span class="page_header" >Erste Hilfe</span>
 				</div>
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
-					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="21">Vollmachten</a>
-					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="22">Dokumente</a>
-					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="23">Erstinformationen</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_1">Vollmachten</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_2">Dokumente</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3">Erstinformationen</a>
 				</div>
 				
 				<!-- Footer -->
@@ -202,7 +201,34 @@
 			</div>
 			<!-- Ende Content-Seite Bereich 2 -->
 
+			<!-- Anfang Content-Seite Bereich 2_3 -->
+			<div  data-role="page" id="content_page_2_3" name="content_page_2_3" data-theme="a">
+				<!-- Header -->
+				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+					<a data-rel="back" data-role="button" style="height: 16px !important;" class="ui-btn-left" data-theme="app-ios" data-transition="none"  data-content_id="2_3">Zurück</a>
+					<span id="content_page_2_3_header" name="content_page_2_3_header" class="page_header" ></span>
+				</div>
+				
+				<!-- Content -->
+				<div class="content" data-role="content">
+					<div id="content_page_2_3_content" name="content_page_2_3_content"></div>
+				</div>
+				
+				<!-- Footer -->
+				<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
+						<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
+							<ul class="apple-navbar-ui comboSprite">
+								<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Kanzlei</a></li>
+								<li><a href="#page_2" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="brands">Erste Hilfe</a></li>
+								<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Vergütung</a></li>
+								<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Verjährung</a></li>
+								<li><a href="#page_5" data-transition="none" data-iconpos="top" data-icon="contact">Kontakt</a></li>
+							</ul>
+						</div>
+				</div>
 
+			</div>
+			<!-- Ende Content-Seite Bereich 2_3 -->
 
 
 
