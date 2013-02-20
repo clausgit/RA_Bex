@@ -12,14 +12,14 @@ $(document).ready(function() {
 		//alert($global_content_2_1);
 
 	    //$('a[data-theme="app-ios"]').find('.ui-icon').remove();
-	    $('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
+	    //$('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
 
 		$('a[data-role="button"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
 		});
 		
-		$('a[data-theme="app-ios"]').live("click", function(e) {
+		/*$('a[data-theme="app-ios"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
 		});
@@ -27,7 +27,7 @@ $(document).ready(function() {
 		$('a[data-rel="back"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
-		});
+		});*/
 		
     var InfiniteRotator = { init: function() {
             //interval between items (in milliseconds)
@@ -67,7 +67,7 @@ $(function () {
 });
 
 
-$( '#page_5_1' ).live( 'pageshow',function(event, ui){
+$( '#page_5_2' ).live( 'pageshow',function(event, ui){
 
 	//------- Google Maps ---------//
 
@@ -79,7 +79,7 @@ $( '#page_5_1' ).live( 'pageshow',function(event, ui){
 		zoom: 15, // This number can be set to define the initial zoom level of the map
 		center: latlng,
 		panControl: false,
-		zoomControl: true,
+		zoomControl: false,
 		mapTypeControl: false,
 		scaleControl: false,
 		streetViewControl: false,
@@ -94,7 +94,7 @@ $( '#page_5_1' ).live( 'pageshow',function(event, ui){
 
 		
 	// Define Marker properties
-	var image = new google.maps.MarkerImage('images/marker.png',
+	var image = new google.maps.MarkerImage('js/images/marker.png',
 		// This marker is 129 pixels wide by 42 pixels tall.
 		new google.maps.Size(129, 42),
 		// The origin for this image is 0,0.
@@ -107,7 +107,7 @@ $( '#page_5_1' ).live( 'pageshow',function(event, ui){
 	var marker1 = new google.maps.Marker({
 		position: new google.maps.LatLng(50.7686653,6.1086211), 
 		map: map,		
-		//icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
+		icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
 	});	
 
 	// Add listener for a click on the pin

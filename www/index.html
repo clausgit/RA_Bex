@@ -23,8 +23,10 @@
 
 	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.css" />
 	<link rel="stylesheet" href="css/basic.css" />
-	 <link rel="stylesheet" href="css/bex.css" />
-	 <link rel="stylesheet" href="css/bartender.css" />
+	<link rel="stylesheet" href="css/bex.css" />
+	<link rel="stylesheet" href="css/bartender.css" />
+	<link rel="stylesheet" href="css/themes/red_button_theme.css" />
+	
 
 	</head>
 	<body>
@@ -61,7 +63,7 @@
 			<div  data-role="page" id="page_1_1" data-theme="a">
 				<!-- Header -->
 				<div data-role="header" style="height: 38px !important;" data-position="fixed">
-					<a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" >Zurück</a>
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_1">Zurück</a>					
 					<span class="page_header" >Rechtsanwalt Bex</span>
 				</div>							
 
@@ -106,7 +108,7 @@
 			<div  data-role="page" id="page_1_1_1" data-theme="a">
 				<!-- Header -->
 				<div data-role="header" style="height: 38px !important;" data-position="fixed">
-					<a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" >Zurück</a>
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_1_1">Zurück</a>					
 					<span class="page_header" >Mitgliedschaften</span>
 				</div>
 				
@@ -266,114 +268,163 @@
 			<!-- Ende Content-Seite Bereich 2_3_12 -->
 
 
+			<!-- Anfang Seite 5 -->		
+			<div  data-role="page" id="page_5" name="page_5" data-theme="a">
+				<!-- Header -->
+				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+					<span class="page_header" >Kontakt</span>
+				</div>
+				
+				<!-- Content -->
+				<div class="content" data-role="content">					
+					<a data-role="button"  data-theme="e"  data-icon="arrow-r" data-iconpos="right" class="button" href="tel:00491772981966">Notruftelefon 0177 29 8 1966</a>
+					<a data-role="button"  data-theme="a"  data-icon="arrow-r" data-iconpos="right" class="button" href="tel:004924155910559">Tel.: 0241/559 10 559</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_1">Anfahrtsbeschreibung</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_2">Karte</a>					
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" href="mailto:bex@rechtsanwalt-bex.de">bex@rechtsanwalt-bex.de</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" href="http://www.rechtsanwalt-bex.de" rel="external" target="_blank">www.rechtsanwalt-bex.de</a>
+					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_3">Impressum</a>	
+				</div>
+
+				<!-- Footer -->
+				<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
+					<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
+						<ul class="apple-navbar-ui comboSprite">
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Kanzlei</a></li>
+							<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Erste Hilfe</a></li>
+							<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Vergütung</a></li>
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Verjährung</a></li>
+							<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
+							</ul>
+					</div>
+				</div>
+
+			</div>
+			<!-- Ende Seite 5 -->
 
 
 
 
-
-
-
-
-
+			<!-- Anfang Seite 5_1 -->		
+			<div  data-role="page" id="page_5_1" name="page_5_1" data-theme="a">
+				<!-- Header -->
+				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>
+					<span class="page_header" >Anfahrtsbeschreibung</span>
+				</div>
+				
+				<!-- Content -->
+				<div class="content" data-role="content">
+					<h3>Anwaltskanzlei Bex<br>
+					Viktoriastraße 28<br>
+					52066 Aachen</h3>
+					<b>Sie erreichen uns..</b><br><br>
+											
+					<b>..mit dem Pkw:</b><br><br>
+					- über die Autobahn A 4 oder A 44 bis zum Autobahnkreuz Aachen;<br>
+					- am Autobahnkreuz Aachen auf die A 544 in Richtung Aachen Europaplatz;<br>
+					- am Europaplatz nach ¾-Runde in die Joseph von Görres-Straße einbiegen;<br>
+					- weiter geradeaus bis zur zweiten Ampel fahren;<br>
+					- an der zweiten Ampel rechts in die Stolberger Straße abbiegen;<br>
+					- über die erste Ampel weiter geradeaus an der Josefskirche vorbei auf den Adalbertsteinweg fahren;<br>
+					- an der zweiten Ampel links in Richtung Justizzentrum Parkplätze abbiegen, dann jedoch den Adalbertsteinweg hoch fahren;<br>
+					- rechts in die Viktoriastraße abbiegen;<br>
+					- nach ca. 100 m liegt auf der rechten Seite unsere Kanzlei.<br>
+					<br>
+					Parkplätze stehen im EG des Parkhauses des Justizzentrums kostenfrei bis 19.00 Uhr zur Verfügung. Darüber hinaus besteht in der Viktoriastraße und in den angrenzenden Straßen rund um das Justizzentrum kein Anwohnerparken.<br><br>
+					<b>..mit dem Bus:</b><br><br>
+					Von der Bushaltestelle "Josefskirche/Justizzentrum" erreichen Sie uns zu Fuß in ca. 1 Minute.<br>
+					Die Bushaltestelle wird von den Linien 2, 5, 12, 15, 22, 23, 25, 35, 45, 55 und 65 angefahren.<br>
+					Von der zentralen Bushaltestelle "Kaiserplatz" aus sind wir über den Adalbertsteinweg zu Fuß in ca. 10 Minuten erreichbar.<br>
+					<br>
+					<b>..mit der Deutschen Bahn:</b><br><br>
+					Vom Bahnhof "Rothe Erde" erreichen Sie uns zu Fuß in ca. 15 - 20 Minuten, vom Hauptbahnhof zu Fuß in ca. 25 - 30 Minuten. <br>
 					
-							<div  data-role="page" id="page_3" data-add-back-btn="true" data-back-btn-text="Zurück">
-								<div data-role="header" style="height: 37px !important;" data-position="fixed"></div>
-								<div class="content" data-role="content">
-									<h2 style=" margin-top: 10px;">Impressum</h2><br><br>
-									<h2>ANWALTSKANZLEI BEX</h2>
-									Rechtsanwalt Harald Bex<br>
-									Viktoriastraße 28<br>
-									52066 Aachen<br>
-									Tel.: <a href="tel:004924155910559">0241/559 10 559</a> und  <a href="tel:004924155910560">0241/559 10 560</a><br>
-									Fax: 0241/559 10 561<br>
-									Mobil: <a href="tel:00491772981966">0177 29 8 1966</a><br>
-									E-Mil: <a href="mailto:bex@rechtsanwalt-bex.de">bex@rechtsanwalt-bex.de</a><br>
-									Internet: <a href="http://www.rechtsanwalt-bex.de" rel="external" target="_blank">www.rechtsanwalt-bex.de</a><br>
-								</div>
-								
-								<div data-role="footer" data-id="mainFooter" data-position="fixed">
-									<div data-role="navbar" data-grid="d">
-										<ul class="apple-navbar-ui comboSprite">
-											<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Home</a></li>
-											<li><a href="#page_2" data-transition="none"  data-iconpos="top" data-icon="brands">Infos</a></li>
-											<li><a href="#page_3" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="fees">Impressum</a></li>
-											<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="contact">Home</a></li>
-											<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Home</a></li>
-										</ul>
-									</div>
-								</div>
-								
-								
-								
-							</div><!-- Ende Seite 3 -->
+				</div>
+
+					<!-- Footer -->
+				<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
+					<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
+						<ul class="apple-navbar-ui comboSprite">
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Kanzlei</a></li>
+							<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Erste Hilfe</a></li>
+							<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Vergütung</a></li>
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Verjährung</a></li>
+							<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
+							</ul>
+					</div>
+				</div>
+
+			</div>
+			<!-- Ende Seite 5_1 -->
+
+			<!-- Anfang Seite 5_2 -->		
+			<div  data-role="page" id="page_5_2" name="page_5_2" data-theme="a">
+				<!-- Header -->
+				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>					
+					<span class="page_header" >Karte</span>
+				</div>
+				
+				<!-- Content -->
+				<div class="content" data-role="content">					
+					<div id="map_div"></div>
+				</div>
+
+					<!-- Footer -->
+				<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
+					<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
+						<ul class="apple-navbar-ui comboSprite">
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Kanzlei</a></li>
+							<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Erste Hilfe</a></li>
+							<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Vergütung</a></li>
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Verjährung</a></li>
+							<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
 
 
+			</div>
+			<!-- Ende Seite 5_2 -->
 
-
-							<div  data-role="page" id="page_5" data-theme="a"><!-- Anfang Seite 5 -->
-								<div data-role="header" style="height: 38px; !important; line-height: 38px; !important; font-size: 16px; border: none; text-align: center;" data-position="fixed">Rechtsanwalt Bex - Kontakt</div>
-								<div class="content" data-role="content">
-									
-										
-										<h2>Rechtsanwalt Harald Bex</h1><br>
-										<h2>Viktoriastraße 28 - 52066 Aachen</h2><br>
-								
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;" data-transition="none" href="#page_5_1">Anfahrtsbeschreibung</a>
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;" href="tel:004924155910559">Tel.: 0241/559 10 559</a>
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;" href="tel:004924155910560">Tel.: 0241/559 10 560</a>
-									<!-- <a data-role="button"  data-theme="a" style="border: none; color: #ffffff !important; text-align: left;" href="#">Fax: 0241/559 10 561</a> -->
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;" href="tel:00491772981966">Mobiltelefon 0177 29 8 1966</a>
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;" href="mailto:bex@rechtsanwalt-bex.de">bex@rechtsanwalt-bex.de</a>
-									<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" style="border: none; color: #ffffff !important; text-align: left;"  href="http://www.rechtsanwalt-bex.de" rel="external" target="_blank">www.rechtsanwalt-bex.de</a>
-								</div>
-								
-								
-								<div data-role="footer" data-id="mainFooter" data-position="fixed">
-									<div data-role="navbar" data-grid="d">
-										<ul class="apple-navbar-ui comboSprite">
-											<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Home</a></li>
-											<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Infos</a></li>
-											<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Impressum</a></li>
-											<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="contact">Home</a></li>
-											<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
-										</ul>
-									</div>
-								</div>
-							</div><!-- Ende Seite 5 -->
-							
-								<div  data-role="page" id="page_5_1" data-theme="a"><!-- Anfang Seite 5_1 -->
-									<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-										<a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" >Zurück</a>
-										<span style="position: relative !important; left: 100px !important; height: 38px !important; !important; line-height: 38px; !important; font-size: 16px; border: none; text-align: center;">Rechtsanwalt Bex -Anfahrt</span>
-									</div>
-
-									
-									<div class="content" data-role="content">
-										<h2>Anfahrtsbeschreibung</h2>
-										Anwaltskanzlei Bex Viktoriastraße 28 52066 Aachen<br><br>
-										<div id="map_div"></div>
-										<br>							
-										<div id="text_content_page_5_1" name="text_content_page_5_1"><!-- Anfang Text Seite 5_1 --></div><!-- Ende Text Seite 5_1 -->
-									</div>
-
-									<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
-											<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
-												<ul class="apple-navbar-ui comboSprite">
-													<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Home</a></li>
-													<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Infos</a></li>
-													<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Impressum</a></li>
-													<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Über uns</a></li>
-													<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
-												</ul>
-											</div>
-										</div>
-
-								</div><!-- Ende Seite 5_1 -->
-							
-
-							
-												
+			<!-- Anfang Seite 5_3 -->		
+			<div  data-role="page" id="page_5_3" name="page_5_3" data-theme="a">
+				<!-- Header -->
+				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>
+					<span class="page_header" >Impressum</span>
+				</div>
+				
+				<!-- Content -->
+				<div class="content" data-role="content">
+				<h3>ANWALTSKANZLEI BEX</h3>
+				Rechtsanwalt Harald Bex<br>
+				Viktoriastraße 28<br>
+				52066 Aachen<br>
+				Tel.: <a href="tel:004924155910559">0241/559 10 559</a> und  <a href="tel:004924155910560">0241/559 10 560</a><br>
+				Fax: 0241/559 10 561<br>
+				Mobil: <a href="tel:00491772981966">0177 29 8 1966</a><br>
+				E-Mil: <a href="mailto:bex@rechtsanwalt-bex.de">bex@rechtsanwalt-bex.de</a><br>
+				Internet: <a href="http://www.rechtsanwalt-bex.de" rel="external" target="_blank">www.rechtsanwalt-bex.de</a><br>
+			</div>
 			
+				<!-- Footer -->
+				<div data-role="footer" data-id="mainFooter" data-position="fixed" data-tap-toggle="false">
+					<div data-role="navbar" data-grid="d"  data-tap-toggle="false">
+						<ul class="apple-navbar-ui comboSprite">
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="features">Kanzlei</a></li>
+							<li><a href="#page_2" data-transition="none" data-iconpos="top" data-icon="brands">Erste Hilfe</a></li>
+							<li><a href="#page_3" data-transition="none" data-iconpos="top" data-icon="fees">Vergütung</a></li>
+							<li><a href="#page_1" data-transition="none" data-iconpos="top" data-icon="about">Verjährung</a></li>
+							<li><a href="#page_5" data-transition="none" class="ui-btn-active ui-state-persist" data-iconpos="top" data-icon="contact">Kontakt</a></li>
+						</ul>
+					</div>
+			</div>
+
+			</div>
+			<!-- Ende Seite 5_3 -->
+		
 
 	</body>
 	</html>          
