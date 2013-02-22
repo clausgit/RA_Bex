@@ -62,6 +62,8 @@ a {
 	position: relative !important;
 	left: 100px !important;
 	height: 38px !important;
+	padding-right: 100px;
+	
 	line-height: 38px !important;
 	font-size: 16px;
 	border: none;
@@ -171,8 +173,8 @@ a {
 	
 	/* iPhone 5 only */
 	#startseite_textblock {
-		margin-top: 0px; 
-		margin-bottom: 15px; 	
+		margin-top: 20px; 
+		margin-bottom: 30px; 	
 	}
 	#startseite_textblock h2 {margin-top: 8px;}
 	#notruf_button {
