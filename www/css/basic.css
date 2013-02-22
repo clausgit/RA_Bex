@@ -14,8 +14,8 @@ body {
 }
 
 ul {
-	margin-left: 20px;
-	padding-left: 20px;
+	margin-left: 10px;
+	padding-left: 10px;
 }
 
 h1 {
@@ -152,7 +152,7 @@ a {
 
 #page_2_button_4 {margin-top: 20px;}
 
-/*.ui-header .ui-title { margin-left: 5.5em; margin-right: 0.5em; }*/
+.ui-header .ui-title { margin-left: 5.5em; margin-right: 5.5em; }
 
 #fire_image {
 	position: relative;

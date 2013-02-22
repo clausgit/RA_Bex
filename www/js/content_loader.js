@@ -340,8 +340,104 @@ global_bex.load_content = function(){
 		<br>\
 		Wir können Ihnen sagen ob Sie einen Anspruch auf Schmerzensgeld, Wertminderung, Nutzungsausfall oder Haushaltsführungsschaden haben, ob Sie einen Sachverständigen beauftragen sollen und was bei der Inanspruchnahme eines Mietwagens zu beachten ist. In jedem Fall sorgen wir für eine schnellstmögliche Abwicklung.<br>\
 		<br>\
-		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Bei Verkehrsunfällen sind die Anwaltskosten im Regelfall ohnehin von der gegnerischen Versicherung zu zahlen. Wir sagen Ihnen außerdem, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.'
-			};
+		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Bei Verkehrsunfällen sind die Anwaltskosten im Regelfall ohnehin von der gegnerischen Versicherung zu zahlen. Wir sagen Ihnen außerdem, ob Sie Anspruch auf Beratungs- oder Prozesskostenhilfe haben.',
+		header_3_1: 'Allgemeines',
+		content_3_1: '<b>Rechtsanwälte haben zwei Möglichkeiten ihre Vergütung zu berechnen:</b><br><br>\
+		Nach dem Rechtsanwaltsvergütungsgesetz (RVG) sind die Gebühren für anwaltliche Leistungen gesetzlich festgelegt. Das RVG unterscheidet zwischen sogenannten Festgebühren und Rahmengebühren. Hinzu kommen Auslagen und Mehrwertsteuer. Festgebühren fallen meist für gerichtliche Tätigkeiten im Zivil-, Verwaltungs- und Arbeitsrecht an. Rahmengebühren sieht das Gesetz überwiegend für außergerichtliche Tätigkeiten sowie weitgehend für die Gebiete des Straf- und Sozialrechts vor.<br><br>\
+		Eine Abweichung von dieser gesetzlichen Gebührenregelung ist grundsätzlich möglich, jedoch bedarf dieses einer schriftlichen Vergütungsvereinbarung mit dem Mandanten. Grundsätzlich darf im Rahmen von Gerichtsverfahren auch kein geringeres Honorar vereinbart werden als es das RVG vorsieht. Die Vereinbarung einer Vergütungsvereinbarung kann für Sie sinnvoll sein, wenn der Gegenstandswert hoch und die voraussichtlich aufzuwendende Arbeitsleistung des Rechtsanwaltes am Anfang seiner Tätigkeit noch nicht genau abzuschätzen ist.',
+		header_3_2: 'Beratung',
+		content_3_2: 'Für eine sogenannte Erstberatung, von der allgemein dann auszugehen ist, wenn erstmalig eine Rechtsproblematik erörtert wird, hat der Gesetzgeber gegenüber Verbrauchern eine Maximalgebühr von 190,00 € zuzüglich Auslagenpauschale und Mehrwertsteuer, d.h. maximal 243,60 € brutto vorgeschrieben.<br>\
+		<br>\
+		Dieses heißt jedoch nunmehr nicht, dass jede Beratung 190,00 € kostet. Vielmehr ist der Gegenstandswert entscheidend. Die Kosten für eine Beratung beginnen bei 13,75 € und sind lediglich durch die gesetzliche Regelung nach oben hin begrenzt.',
+		header_3_3: 'Außergerichtliche Vertretung',
+		content_3_3: 'In Strafsachen entstehen immer die Grundgebühr für das erste Einarbeiten in den Sachverhalt, ferner jeweils eine Verfahrens- und ggf. eine Terminsgebühr im Ermittlungsverfahren.<br>\
+		<br>\
+		<b>Außergerichtliche Vertretung</b> <br>\
+		<br>\
+		Zunächst ist nach den Rechtsgebieten zu unterscheiden. <br>\
+		<br>\
+		In zivilrechtlichen und verwaltungsrechtlichen Angelegenheiten richtet sich die Höhe der Rechtsanwaltsgebühren nach dem sogenannten Gegenstandswert. Hierunter ist der Betrag zu verstehen, den z. B. der Anspruchsteller gegen seinen Anspruchsgegner geltend macht. Des weiteren versteht man hierunter den Gegenstandswert einer Angelegenheit, wenn z. B. eine rechtliche Beratung ohne weitere Anspruchsverfolgung gegenüber einem Dritten Grundlage für den Gebührenanspruch des Rechtsanwaltes ist. Das RVG enthält eine Gebührentabelle, der für den jeweiligen Streitwert die entsprechende volle Rechtsanwaltsgebühr entnommen werden kann. Der Gebührenrahmen beträgt 0,5 bis 2,5 für die Geschäftsgebühr. Der Rechtsanwalt kann eine höhere Gebühr als 1,3 nur berechnen, wenn die Tätigkeit umfangreich oder schwierig war.<br>\
+		<br>\
+		In strafrechtlichen Angelegenheiten richtet sich die Höhe der Rechtsanwaltsgebühren nicht nach einem Gegenstandswert, sondern nach den jeweiligen anwaltlichen Tätigkeiten in den verschiedenen Verfahrensabschnitten. In Strafsachen entstehen immer die Grundgebühr für das erste Einarbeiten in den Sachverhalt, ferner jeweils eine Verfahrens- und gegebenenfalls. eine Terminsgebühr im Ermittlungsverfahren',		
+		header_3_4: 'Gerichtliche Vertretung',
+		content_3_4: 'Bei der gerichtlichen Vertretung in zivil- oder verwaltungsrechtlichen Angelegenheiten durch einen Rechtsanwalt fallen in der Regel eine Verfahrens- und eine Terminsgebühr an. Im gerichtlichen Verfahren beträgt die Verfahrensgebühr 1,3 und die Terminsgebühr 1,2, sodass in der Regel 2,5 Gebühren entstehen. Einigen sich die Parteien, nachdem ein Rechtsstreit anhängig geworden ist, beträgt die Einigungsgebühr 1,0. <br>\
+		<br>\
+		In strafrechtlichen Angelegenheiten richtet sich die Höhe der Rechtsanwaltsgebühren nicht nach einem Gegenstandswert, sondern nach den jeweiligen anwaltlichen Tätigkeiten in den verschiedenen Verfahrensabschnitten. In Strafsachen entstehen immer die Grundgebühr für das erste Einarbeiten in den Sachverhalt, ferner jeweils eine Verfahrens- und gegebenenfalls eine Terminsgebühr im Ermittlungsverfahren und im gerichtlichen Verfahren. Es ist weiterhin eine unterschiedliche Vergütung von Wahl- und Pflichtverteidiger vorgesehen. <br>\
+		<br>\
+		Das RVG legt für den Wahlverteidiger jeweils einen bestimmten Gebührenrahmen fest, also Mindest- und Höchstgebühren, die sich nach dem jeweiligen Umfang bemessen. Bei durchschnittlichen, nicht besonders schwierigen oder umfangreichen Strafsachen ist zumeist die Mittelgebühr anzusetzen. Für den Pflichtverteidiger legt das RVG die Gebühr für den jeweiligen Verfahrensabschnitt fest. Zur Berechnung in Ihrem konkreten Fall dienen die nachfolgenden tabellarischen Übersichten als Orientierung.<br>\
+		<br>\
+		Bitte berücksichtigen Sie, dass in Ihrem konkreten Fall, neben der Frage in welchem Verfahrensabschnitt unsere Mandatierung stattfindet, insbesondere u.a. die Anzahl der Hauptverhandlungstermine, wie auch die konkrete Berechnung der Auslagen und der Mehrwertsteuer einen entscheidenden Einfluss auf die Gesamtkosten Ihrer Verteidigung hat.<br>\
+		<br>\
+		Wichtig zu wissen ist weiter, dass im Falle eins Freispruchs unsere Kosten von der Staatskasse zu übernehmen sind. Im Falle der Tätigkeit als Pflichtverteidiger rechnen wir die Kosten unserer Inanspruchnahme mit der Staatskasse ab.',		
+		header_3_5: 'Vorschuss',
+		content_3_5: 'Um den Vergütungsanspruch sicherzustellen, dürfen Rechtsanwälte einen angemessenen Vorschuss verlangen. Die Höhe des Vorschusses richtet sich nach der voraussichtlichen Höhe der entstehenden Rechtsanwaltsgebühren.',		
+		header_3_6: 'Rechtsschutzversicherung',
+		content_3_6: 'Wenn Sie über eine Rechtsschutzversicherung verfügen, ist es ausreichend, wenn Sie die Unterlagen zu dieser Versicherung zu einem Besprechungstermin mitbringen. Wir setzen uns dann mit Ihrer Versicherung in Verbindung und fragen dort hinsichtlich einer Kostenübernahme an. Selbstverständlich kommt eine Kostenübernahme durch Ihre Versicherung nur für die Bereiche in Betracht, die Sie auch versichert haben.<br>\
+		<br>\
+		Da uns dieses im Normalfall nicht bekannt ist, kann von einer Kostenübernahme durch die Rechtsschutzversicherung erst dann ausgegangen werden, wenn von dort die Kostenübernahme verbindlich zugesagt wurde. Hier ist zudem eine gegebenenfalls mit der Rechtsschutzversicherung vereinbarte Selbstbeteiligung zu berücksichtigen.<br>\
+		<br>\
+		Bitte beachten Sie, dass die Rechtsschutzversicherung insbesondere in familien- und erbrechtlichen Angelegenheiten keineswegs regelmäßig eintritt und vielfach nur das "erste Gespräch" trägt. Eine lediglich "vorsorgende Beratung" ist nicht versicherbar.',		
+		header_3_7: 'Beratungshilfe und Prozesskostenhilfe',
+		content_3_7: 'Zudem bietet auch der Staat finanzielle Unterstützung bei der Führung von Rechtsstreiten. Hierzu werden Beratungshilfe und Prozesskostenhilfe zur Verfügung gestellt. Die Beratungshilfe gilt für den außergerichtlichen und die Prozesskostenhilfe für den gerichtlichen Bereich.<br>\
+		<br>\
+		Voraussetzung für die Bewilligung von Prozesskostenhilfe ist zum einen, dass Sie aufgrund Ihrer persönlichen und wirtschaftlichen Verhältnisse, die Kosten der Prozessführung gar nicht, nur zum Teil oder nur in Raten aufbringen können und dass die beabsichtigte Rechtsverfolgung oder Rechtsverteidigung Aussicht auf Erfolg hat und nicht mutwillig erscheint.<br>\
+		<br>\
+		In Ihrem Auftrag können wir für Sie einen entsprechenden Antrag stellen. Eine Erklärung über die persönlichen und wirtschaftlichen Verhältnisse muss hierzu von Ihnen ausgefüllt und mit den notwendigen Belegkopien versehen werden. <br>\
+		Die Inanspruchnahme von Prozesskostenhilfe stellt einen Weg dar, Ihnen die Rechtsverfolgung trotz beengter wirtschaftlicher Verhältnisse zu ermöglichen.<br>\
+		<br>\
+		Ein Anspruch auf kostenlose Rechtsverfolgung erwächst jedoch hieraus nicht grundsätzlich. Oft werden wir von unseren Mandanten gefragt, ob es nicht in Strafsachen Prozesskostenhilfe gibt. Bei Bußgeldverfahren, Ermittlungsverfahren und Strafsachen gibt es jedoch weder Beratungshilfe noch Prozesskostenhilfe. Es besteht aber eventuell die Möglichkeit einer Pflichtverteidigung, bei der der Rechtsanwalt zunächst von der Justizkasse bezahlt wird.<br>\
+		<br>\
+		Wenn es aber Ihre Einkommensverhältnisse zulassen, müssen bei einer Verurteilung die vorgestreckten Beträge zurückgezahlt werden.',		
+		header_3_8: 'Strafrecht',
+		content_3_8: 'Wurden Sie zu Unrecht angeklagt und erfolgt im Strafverfahren ein Freispruch fallen unsere Gebühren der Staatskasse zur Last.',		
+		header_3_9: 'Zivilrecht',
+		content_3_9: 'In außergerichtlichen zivilrechtlichen Angelegenheiten besteht auch oft ein völlig falsches Bild. Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Das gibt Ihnen Sicherheit. Selbstverständlich versuchen wir die Gegenseite für die Kosten unserer Inanspruchnahme haftbar zu machen.<br><br>\
+		In verkehrsrechtlichen Angelegenheiten sind unsere Kosten in der Regel ein Teil des gesamten Schadens, den der Gegner bzw. dessen Versicherung ganz oder zum Teil übernimmt.<br><br>\
+		Im Zivilprozess bezahlt, im Falle des Obsiegens, die Gegenseite die Kosten des Rechtsstreits, zu dem auch die Kosten des Rechtsanwalts gehören, im Verhältnis von Obsiegen und Unterliegen.',		
+		header_3_10: 'Arbeitsrecht',
+		content_3_10: 'Im Arbeitsrecht sind unabhängig vom Prozessausgang, zumindest in der ersten Instanz, die Rechtsanwaltsgebühren selber zu tragen, sofern nicht Prozesskostenhilfe bewilligt wurde. Gerade im Arbeitsrecht kann sich eine Rechtsschutzversicherung daher bezahlt machen.',		
+		header_4_1: 'Regelmäßige Verjährungsfrist',
+		content_4_1: 'Die regelmäßige Verjährungsfrist beträgt seit dem 01.01.2002 drei Jahre. Die regelmäßige Verjährungsfrist gilt in allen Fällen, in denen im Gesetz keine andere Frist bestimmt ist. Dies ist z. B. der Fall bei rechtskräftig festgestellten Ansprüchen z.B. durch Urteil oder Vollstreckungsbescheid. <br>\
+		<br>\
+		Die regelmäßige Verjährungsfrist beginnt zu laufen, wenn der Anspruch entstanden ist. Bei Verträgen entstehen Ansprüche regelmäßig mit dem Vertragsschluss. Zudem ist erforderlich, dass der Gläubiger von den anspruchsbegründenden Umständen und der Person seines Schuldners Kenntnis erlangt hat oder ihm diese in Folge grober Fahrlässigkeit unbekannt geblieben sind. Das bedeutet, dass die Verjährungsfrist nur zu laufen beginnt, wenn etwa bei einem Schadensersatzanspruch der Gläubiger von der Pflichtverletzung und dem Entstehen des Schadens weiß und ihm auch Name und Anschrift des Schuldners bekannt sind. Grob fahrlässige Unkenntnis ist dann zu bejahen, wenn diese auf einer besonders schwerwiegenden Verletzung der im Verkehr erforderlichen Sorgfalt beruht. <br>\
+		<br>\
+		Bei Vorliegen dieser Voraussetzungen beginnt die Verjährungsfrist am Ende des jeweiligen Kalenderjahres. Bei einem Anspruch, der am 08.09.2003 entsteht und von dem der Gläubiger noch am gleichen Tage Kenntnis erlangt, beginnt die Verjährungsfrist also erst am 01.01.2004 zu laufen und endet am 31.12.2006. Damit wird das Nachhalten der Verjährungsfristen für den Gläubiger erheblich vereinfacht. <br>\
+		<br>\
+		Das Gesetz bestimmt jedoch absolute Verjährungsfristen, nach deren Verstreichen kenntnisunabhängig die Verjährung eintritt. Diese Frist beträgt taggenau 10 Jahre von ihrer Entstehung an. Ausgenommen hiervon sind Schadensersatzansprüche.',		
+		header_4_2: 'Verjährungsfristen bei Schadensersatzansprüchen',
+		content_4_2: 'Schadensersatzansprüche, die auf der Verletzung des Lebens, des Körpers, der Gesundheit oder der Freiheit beruhen, verjähren ohne Rücksicht auf ihre Entstehung und die Kenntnis oder grob fahrlässige Unkenntnis in 30 Jahren von der Begehung der Handlung, der Pflichtverletzung oder dem sonstigen, den Schaden auslösenden Ereignis an.<br>\
+		<br>\
+		Andere Schadensersatzansprüche, etwa aus der Verletzung eines Beratungsvertrages oder der Verletzung des Eigentums, verjähren kenntnisunabhängig in 10 bzw. 30 Jahren. Hierbei ist jedoch zu beachten, dass immer die früher endende Frist maßgebend ist.',
+		header_4_3: 'Verjährung von Gewährleistungsansprüchen',
+		content_4_3: '<b>Kaufvertrag</b><br>\
+		<br>\
+		Die Verjährungsfrist für Ansprüche bzw. Rechte wegen eines Mangels des Kaufgegenstandes beträgt grundsätzlich 2 Jahre. Bei Bauwerken und bei Sachen, die entsprechend ihrer üblichen Verwendungsweise für ein Bauwerk verwendet worden sind und dessen Mangelhaftigkeit verursacht haben, wird diese Frist auf 5 Jahre erweitert.Die Verjährung beginnt mit der Übergabe der Sache. Die Verjährungsfristen gelten auch für die sog. Mangelfolgeschäden.<br>\
+		<br>\
+		Hat der Verkäufer den Mangel arglistig verschwiegen, gelten die Vorschriften über die regelmäßige Verjährung, also die von Kenntnis bzw. grob fahrlässiger Unkenntnis abhängige 3-Jahres-Frist sowie die absoluten Fristen von 10 bzw. 30 Jahren. Bei Bauwerken bzw. bei Sachen, die bestimmungsgemäß für Bauwerke verwendet werden, tritt die Verjährung bei arglistigem Verschweigen aber nicht vor Ablauf der 5-Jahres-Frist ein. <br>\
+		<br>\
+		<b>Werkvertrag</b><br>\
+		<br>\
+		Die Verjährung der Gewährleistungsansprüche aus Werkvertrag entspricht weitgehend den Regelungen des Kaufs. Ansprüche bzw. Rechte wegen Mängeln an Bauwerken verjähren in 5 Jahren. Gleiches gilt für die entsprechenden Planungs- oder Überwachungsleistungen.<br>\
+		<br>\
+		Ist Gegenstand des Werks die Herstellung, Wartung oder Veränderung einer Sache, beträgt die Verjährungsfrist 2 Jahre. Auch hier werden die entsprechenden Planungs- oder Überwachungsleistungen der Herstellung des körperlichen Werks gleichgestellt. <br>\
+		In allen übrigen Fällen unterliegen die Gewährleistungsansprüche der regelmäßigen Verjährungsfrist (3, 10 bzw. 30 Jahre).<br>\
+		<br>\
+		Die Verjährung beginnt grundsätzlich mit der Abnahme. Bei arglistigem Verschweigen des Mangels gelten die Bestimmungen über den Kaufvertrag entsprechend.',
+		header_4_4: 'Hemmung oder Neubeginn der Verjährung',
+		content_4_4: 'Die Verjährung einer Forderung tritt nicht ein, wenn sie gehemmt ist oder neu beginnt. Verjährungshemmung bedeutet, dass der Zeitraum, in dem die Verjährung gehemmt war, nicht in die Verjährungsfrist eingerechnet wird. Die Verjährungsfrist läuft aber nach der Hemmung weiter.',
+		header_4_5: 'Die wesentlichen Hemmungstatbestände',
+		content_4_5: '<b>Die wesentlichen Hemmungstatbestände</b><br>\
+		<ul><li>Schwebende (ernsthafte) Verhandlungen. Die Verjährung wird gehemmt, wenn zwischen Schuldner und Gläubiger Verhandlungen über den Anspruch oder die den Anspruch begründenden Umstände schweben. Die Verjährung ist dann solange gehemmt bis eine Partei die Fortsetzung der Verhandlungen verweigert. Die Verjährung tritt dann <br>\
+		 frühestens drei Monate nach dem Ende der Hemmung ein, § 203 BGB. </li>\
+		<li>Klageerhebung oder lediglich Einreichung der Klage, falls die Klageschrift in Kürze zugestellt wird, § 204 Abs. 1 Nr. 1 BGB. <br>\
+		<li>Zustellung des Mahnbescheides im Mahnverfahren, § 203 Abs. 1 Nr. 3 BGB. <br>\
+		<li>Zustellung der Streitverkündung, § 204 Abs. 1 Nr. 6 BGB. <br>\
+		<li>Zustellung des Antrags auf Durchführung eines selbständigen Beweisverfahrens, § 204 Abs. 1 Nr. 7 BGB. <br>\
+		<li>Anmeldung des Anspruchs im Insolvenzverfahren, § 204 Abs. 1 Nr. 10 BGB. </li></ul>\
+		Die Verjährung beginnt neu zu laufen, wenn ein Anerkenntnis des Schuldners vorliegt oder eine gerichtliche oder behördliche Vollstreckungshandlung vorgenommen oder beantragt wird, § 212 BGB.',
+		header_4_6: 'Rechtsfolgen der Verjährung',
+		content_4_6: 'Die Verjährung führt nicht zum Erlöschen des Anspruchs. Sie begründet lediglich ein Leistungsverweigerungsrecht, das der Schuldner im Gerichtsprozess im Wege der Einrede geltend machen muss. Es bleibt also dabei, dass das Gericht die Verjährung nicht von Amts wegen berücksichtigt. '
+		};
 
 }
 

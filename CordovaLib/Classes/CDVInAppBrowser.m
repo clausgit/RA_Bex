@@ -27,7 +27,7 @@
 #define    kInAppBrowserTargetBlank @"_blank"
 
 #define    TOOLBAR_HEIGHT 44.0
-#define    LOCATIONBAR_HEIGHT 21.0
+#define    LOCATIONBAR_HEIGHT 0.0 //CLAUS XXXXXXXXXXXXXXXXXXXXXXXXXX 21.0 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 #define    FOOTER_HEIGHT ((TOOLBAR_HEIGHT) + (LOCATIONBAR_HEIGHT))
 
 #pragma mark CDVInAppBrowser
@@ -329,8 +329,11 @@
     self.backButton.enabled = YES;
     self.backButton.imageInsets = UIEdgeInsetsZero;
 
-    [self.toolbar setItems:@[self.closeButton, flexibleSpaceButton, self.backButton, fixedSpaceButton, self.forwardButton]];
-
+    //[self.toolbar setItems:@[self.closeButton, flexibleSpaceButton, self.backButton, fixedSpaceButton, self.forwardButton]];
+    //CLAUS XXXXXXXXXXXXXXXXXXXXXXXXXX 21.0 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    [self.toolbar setItems:@[self.closeButton]];
+    
+    
     self.view.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.toolbar];
     [self.view addSubview:self.addressLabel];

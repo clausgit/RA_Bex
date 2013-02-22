@@ -15,8 +15,8 @@ $(document).ready(function() {
 	    //$('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
 
 		$('a[data-role="button"]').live("click", function(e) {
-			$globalContentID = $(this).data("content_id");  				
-			//alert($globalContentID);
+			$globalContentID = $(this).data("content_id"); 			
+			if ($(this).data("pdf_name")){window.open(encodeURI('docs/' + $(this).data("pdf_name")), '_blank', 'EnableViewPortScale=yes');}	
 		});
 		
 		/*$('a[data-theme="app-ios"]').live("click", function(e) {
@@ -43,13 +43,13 @@ $(document).ready(function() {
 		    window.plugins.childBrowser.showWebPage(url);
 		}*/
 		
-		$('#openpdf').live("click", function(e) {
-			window.open(encodeURI('docs/Bild-29-12-2011.pdf'), '_blank', 'EnableViewPortScale=yes');
+		//$('#openpdf').live("click", function(e) {
+			//window.open(encodeURI('docs/Bild-29-12-2011.pdf'), '_blank', 'EnableViewPortScale=yes');
 			//window.open(encodeURI('docs/Bild-29-12-2011.pdf'), '_blank', 'location=no', 'EnableViewPortScale=yes');
 			//alert('Hallo');
 			//window.plugins.childBrowser.showWebPage('http://www.google.com', { showLocationBar: true });
 			//Cordova.exec("ChildBrowserCommand.showWebPage", "file:///www/docs/Bild-29-12-2011.pdf" );
-		});
+		//});
 		
 		/* ANFANG PRINTKRAM		
 		function printMe(id){
@@ -209,8 +209,19 @@ $( '#content_page_2_3_12' ).live( 'pagebeforeshow',function(event, ui){
 	$("#content_page_2_3_12_content").html(temp_ContentToShow).trigger('create');
 });
 
+$( '#content_page_3' ).live( 'pagebeforeshow',function(event, ui){	
+	var temp_HeaderToShow = $global_content['header_' + $globalContentID];
+	$("#content_page_3_header").html(temp_HeaderToShow).trigger('create');
+	var temp_ContentToShow = $global_content['content_' + $globalContentID];
+	$("#content_page_3_content").html(temp_ContentToShow).trigger('create');
+});
 
-
+$( '#content_page_4' ).live( 'pagebeforeshow',function(event, ui){	
+	var temp_HeaderToShow = $global_content['header_' + $globalContentID];
+	$("#content_page_4_header").html(temp_HeaderToShow).trigger('create');
+	var temp_ContentToShow = $global_content['content_' + $globalContentID];
+	$("#content_page_4_content").html(temp_ContentToShow).trigger('create');
+});
 
 /*$("#select_document").change(function() {
     var $temp_document_selected = $(this).val();
