@@ -29,7 +29,7 @@ $(document).ready(function() {
 			//alert($globalContentID);
 		});*/
 		
-		
+		/* hallo */
 
 		
 		/*pub.goToUrl = function(sender) {
