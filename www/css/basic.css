@@ -111,7 +111,10 @@ a {
 	
 }
 
-
+.pdfViewerIframe {
+	border: none;
+	
+}
 
 
 #startseite_textblock {

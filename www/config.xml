@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "de.idealsystem.bex"
-    version   = "2.2.0">
+    version   = "2.4.0">
     <name>Rechtsanwalt Bex</name>
     
     <description>

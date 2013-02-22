@@ -29,6 +29,55 @@ $(document).ready(function() {
 			//alert($globalContentID);
 		});*/
 		
+		
+
+		
+		/*pub.goToUrl = function(sender) {
+		  // get url off of data attribute from item that was clicked
+		  var url = $(sender).data("url"); 
+
+		  // install ChildBrowser
+		  var cb = ChildBrowser.install();
+		  // if ChildBrowser is installed, open it with target set
+		  if(cb != null)
+		    window.plugins.childBrowser.showWebPage(url);
+		}*/
+		
+		$('#openpdf').live("click", function(e) {
+			window.open(encodeURI('docs/Bild-29-12-2011.pdf'), '_blank', 'EnableViewPortScale=yes');
+			//window.open(encodeURI('docs/Bild-29-12-2011.pdf'), '_blank', 'location=no', 'EnableViewPortScale=yes');
+			//alert('Hallo');
+			//window.plugins.childBrowser.showWebPage('http://www.google.com', { showLocationBar: true });
+			//Cordova.exec("ChildBrowserCommand.showWebPage", "file:///www/docs/Bild-29-12-2011.pdf" );
+		});
+		
+		/* ANFANG PRINTKRAM		
+		function printMe(id){
+		window.frames["printeriframe"].document.getElementById("printcontent").innerHTML = document.getElementById(id).innerHTML
+		window.frames['printeriframe'].printMe()
+		}
+	
+		$('#printButton').live("click", function(e) {
+			  document.getElementById("iFramePdf").print();
+			//window.print();
+			//window.frames['iFramePdf'].print();
+			//document.getElementById("iFramePdf").contentWindow.print();
+			//window.frames["iFramePdf"].focus();
+			//window.frames["iFramePdf"].print();
+		});
+		
+		function printTrigger(elementId) {
+			alert('Hallo');
+			
+			window.frames["iFramePdf"].focus();
+			window.frames["iFramePdf"].print();
+			
+		    //var getMyFrame = document.getElementById(elementId);
+		    //getMyFrame.focus();
+		    //getMyFrame.contentWindow.print();
+		}
+		ENDE PRINTKRAM */
+		
     var InfiniteRotator = { init: function() {
             //interval between items (in milliseconds)
             var itemInterval = 100;
