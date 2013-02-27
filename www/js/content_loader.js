@@ -193,8 +193,7 @@ global_bex.load_content = function(){
 		Das Mietrecht in Deutschland wird immer komplizierter. Viele Probleme lassen sich bereits durch einen in Ihrem Sinne gestalteten schriftlichen gewerblichen oder privaten Mietvertrag vermeiden. Wenn der Mieter nicht mehr zahlt ist schnelles Handeln erforderlich, damit Ihnen nicht durch ausbleibende Mietzinszahlungen hoher Schaden entsteht. Bei Eigenbedarf, Kündigungs- und Räumungsprozessen gilt es zahlreiche Dinge zu beachten.<br>\
 		<br>\
 		Fragen Sie uns gleich zu Beginn einer Beratung nach den voraussichtlichen Kosten. Wenn Sie eine Rechtsschutzversicherung haben, brauchen Sie sich um die anfallenden Kosten meist überhaupt keine Gedanken zu machen. <br>\
-		Unser Service für Mieter<br>\
-		<br>\
+		<h3>Unser Service für Mieter</h3>\
 		Ob Ihr Vermieter Ihnen die Kündigung ausgesprochen hat, oder ob in Ihre Mietswohnung die Heizung ausgefallen ist und Sie die Miete mindern wollen. Wir kennen Ihre Rechte als Mieter.<br>\
 		<br>\
 		Wir beraten Sie, ob die Kündigung wirksam ist, oder ob Sie der Kündigung wiedersprechen können, z.B. weil die Kündigung für Sie eine besondere Härte bedeuten würde. Oft kann auch in diesen Fällen mit dem Vermieter verhandelt und gegen Abstandszahlung ein Aufhebungsvertrag geschlossen werden.<br>\
@@ -238,9 +237,9 @@ global_bex.load_content = function(){
 		content_2_3_12: '<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_1">Allgemein</a>\
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_2">Entdeckungsrisiko</a>\
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_3">Die nicht geringe Menge </a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_4">Unterscheidung Erntehelfer, Mittäter oder Bande</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_5">Grundsatz Therapie statt Strafe</a>\
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_6">Vorschriften des Betäubungsmittelstrafrechts</a>',
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_4">Erntehelfer und Mittäter</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_5">Therapie statt Strafe</a>\
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2_3_12" data-content_id="2_3_12_6">Betäubungsmittelgesetz</a>',
 		header_2_3_12_1: 'Allgemein',
 		content_2_3_12_1: 'Bundesweit, insbesondere aber in Nordrhein-Westfalen, steigt die Anzahl der Fälle in denen sogenannte Marihuanaplantagen ausgehoben werden stetig an. <br>\
 		<br>\
@@ -377,7 +376,7 @@ global_bex.load_content = function(){
 		Da uns dieses im Normalfall nicht bekannt ist, kann von einer Kostenübernahme durch die Rechtsschutzversicherung erst dann ausgegangen werden, wenn von dort die Kostenübernahme verbindlich zugesagt wurde. Hier ist zudem eine gegebenenfalls mit der Rechtsschutzversicherung vereinbarte Selbstbeteiligung zu berücksichtigen.<br>\
 		<br>\
 		Bitte beachten Sie, dass die Rechtsschutzversicherung insbesondere in familien- und erbrechtlichen Angelegenheiten keineswegs regelmäßig eintritt und vielfach nur das "erste Gespräch" trägt. Eine lediglich "vorsorgende Beratung" ist nicht versicherbar.',		
-		header_3_7: 'Beratungshilfe und Prozesskostenhilfe',
+		header_3_7: 'Prozesskostenhilfe',
 		content_3_7: 'Zudem bietet auch der Staat finanzielle Unterstützung bei der Führung von Rechtsstreiten. Hierzu werden Beratungshilfe und Prozesskostenhilfe zur Verfügung gestellt. Die Beratungshilfe gilt für den außergerichtlichen und die Prozesskostenhilfe für den gerichtlichen Bereich.<br>\
 		<br>\
 		Voraussetzung für die Bewilligung von Prozesskostenhilfe ist zum einen, dass Sie aufgrund Ihrer persönlichen und wirtschaftlichen Verhältnisse, die Kosten der Prozessführung gar nicht, nur zum Teil oder nur in Raten aufbringen können und dass die beabsichtigte Rechtsverfolgung oder Rechtsverteidigung Aussicht auf Erfolg hat und nicht mutwillig erscheint.<br>\
@@ -404,11 +403,11 @@ global_bex.load_content = function(){
 		Bei Vorliegen dieser Voraussetzungen beginnt die Verjährungsfrist am Ende des jeweiligen Kalenderjahres. Bei einem Anspruch, der am 08.09.2003 entsteht und von dem der Gläubiger noch am gleichen Tage Kenntnis erlangt, beginnt die Verjährungsfrist also erst am 01.01.2004 zu laufen und endet am 31.12.2006. Damit wird das Nachhalten der Verjährungsfristen für den Gläubiger erheblich vereinfacht. <br>\
 		<br>\
 		Das Gesetz bestimmt jedoch absolute Verjährungsfristen, nach deren Verstreichen kenntnisunabhängig die Verjährung eintritt. Diese Frist beträgt taggenau 10 Jahre von ihrer Entstehung an. Ausgenommen hiervon sind Schadensersatzansprüche.',		
-		header_4_2: 'Verjährungsfristen bei Schadensersatzansprüchen',
+		header_4_2: 'Schadensersatzansprüche',
 		content_4_2: 'Schadensersatzansprüche, die auf der Verletzung des Lebens, des Körpers, der Gesundheit oder der Freiheit beruhen, verjähren ohne Rücksicht auf ihre Entstehung und die Kenntnis oder grob fahrlässige Unkenntnis in 30 Jahren von der Begehung der Handlung, der Pflichtverletzung oder dem sonstigen, den Schaden auslösenden Ereignis an.<br>\
 		<br>\
 		Andere Schadensersatzansprüche, etwa aus der Verletzung eines Beratungsvertrages oder der Verletzung des Eigentums, verjähren kenntnisunabhängig in 10 bzw. 30 Jahren. Hierbei ist jedoch zu beachten, dass immer die früher endende Frist maßgebend ist.',
-		header_4_3: 'Verjährung von Gewährleistungsansprüchen',
+		header_4_3: 'Gewährleistungsansprüche',
 		content_4_3: '<b>Kaufvertrag</b><br>\
 		<br>\
 		Die Verjährungsfrist für Ansprüche bzw. Rechte wegen eines Mangels des Kaufgegenstandes beträgt grundsätzlich 2 Jahre. Bei Bauwerken und bei Sachen, die entsprechend ihrer üblichen Verwendungsweise für ein Bauwerk verwendet worden sind und dessen Mangelhaftigkeit verursacht haben, wird diese Frist auf 5 Jahre erweitert.Die Verjährung beginnt mit der Übergabe der Sache. Die Verjährungsfristen gelten auch für die sog. Mangelfolgeschäden.<br>\
@@ -423,9 +422,9 @@ global_bex.load_content = function(){
 		In allen übrigen Fällen unterliegen die Gewährleistungsansprüche der regelmäßigen Verjährungsfrist (3, 10 bzw. 30 Jahre).<br>\
 		<br>\
 		Die Verjährung beginnt grundsätzlich mit der Abnahme. Bei arglistigem Verschweigen des Mangels gelten die Bestimmungen über den Kaufvertrag entsprechend.',
-		header_4_4: 'Hemmung oder Neubeginn der Verjährung',
+		header_4_4: 'Hemmung oder Neubeginn',
 		content_4_4: 'Die Verjährung einer Forderung tritt nicht ein, wenn sie gehemmt ist oder neu beginnt. Verjährungshemmung bedeutet, dass der Zeitraum, in dem die Verjährung gehemmt war, nicht in die Verjährungsfrist eingerechnet wird. Die Verjährungsfrist läuft aber nach der Hemmung weiter.',
-		header_4_5: 'Die wesentlichen Hemmungstatbestände',
+		header_4_5: 'Hemmungstatbestände',
 		content_4_5: '<b>Die wesentlichen Hemmungstatbestände</b><br>\
 		<ul><li>Schwebende (ernsthafte) Verhandlungen. Die Verjährung wird gehemmt, wenn zwischen Schuldner und Gläubiger Verhandlungen über den Anspruch oder die den Anspruch begründenden Umstände schweben. Die Verjährung ist dann solange gehemmt bis eine Partei die Fortsetzung der Verhandlungen verweigert. Die Verjährung tritt dann <br>\
 		 frühestens drei Monate nach dem Ende der Hemmung ein, § 203 BGB. </li>\

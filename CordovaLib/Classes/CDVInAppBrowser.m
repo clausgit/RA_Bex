@@ -329,9 +329,9 @@
     self.backButton.enabled = YES;
     self.backButton.imageInsets = UIEdgeInsetsZero;
 
-    //[self.toolbar setItems:@[self.closeButton, flexibleSpaceButton, self.backButton, fixedSpaceButton, self.forwardButton]];
+    [self.toolbar setItems:@[self.closeButton, flexibleSpaceButton, self.backButton, fixedSpaceButton, self.forwardButton]];
     //CLAUS XXXXXXXXXXXXXXXXXXXXXXXXXX 21.0 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    [self.toolbar setItems:@[self.closeButton]];
+    //[self.toolbar setItems:@[self.closeButton]];
     
     
     self.view.backgroundColor = [UIColor grayColor];

@@ -19,6 +19,10 @@ $(document).ready(function() {
 			if ($(this).data("pdf_name")){window.open(encodeURI('docs/' + $(this).data("pdf_name")), '_blank', 'EnableViewPortScale=yes');}	
 		});
 		
+		$('#website_button').live("click", function(e) {			
+			window.open(encodeURI('http://www.rechtsanwalt-bex.de'), '_blank', 'EnableViewPortScale=yes');	
+		});
+		
 		/*$('a[data-theme="app-ios"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
@@ -109,8 +113,8 @@ $(function () {
     var element = $("#ticker");
     (function(){
         element
-            .animate({ marginLeft: -455, easing: 'linear' }, 8000, 'linear')
-			.animate({ marginLeft: -7, easing: 'linear' }, 1, arguments.callee)
+            .animate({ marginLeft: -354, easing: 'linear' }, 8000, 'linear')
+			.animate({ marginLeft: 0, easing: 'linear' }, 1, arguments.callee)
 
     }());
 });
@@ -121,7 +125,7 @@ $( '#page_5_2' ).live( 'pageshow',function(event, ui){
 	//------- Google Maps ---------//
 
 	// Creating a LatLng object containing the coordinate for the center of the map
-	var latlng = new google.maps.LatLng(50.7686653,6.1086211);
+	var latlng = new google.maps.LatLng(50.7731780,6.1066970);
 
 	// Creating an object literal containing the properties we want to pass to the map  
 	var options = {  
@@ -154,7 +158,7 @@ $( '#page_5_2' ).live( 'pageshow',function(event, ui){
 
 	// Add Marker
 	var marker1 = new google.maps.Marker({
-		position: new google.maps.LatLng(50.7686653,6.1086211), 
+		position: new google.maps.LatLng(50.7731780,6.1066970), 
 		map: map,		
 		icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
 	});	

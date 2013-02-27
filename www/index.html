@@ -39,11 +39,11 @@
 					<img id="fire_image" src="img/feuer.00001.jpg" >					
 					<div id="ticker_container"><div id="ticker" style="text-align: left;">Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird... Bevor es heiß wird...&nbsp;
 						</div></div>				
-					<div id="startseite_textblock"><h1 style="color: #2c5f98;">ANWALTSKANZLEI BEX</h1><h2>Rechtsanwalt Harald Bex</h1><h2>Viktoriastraße 28 - 52066 Aachen</h2></div>
+					<div id="startseite_textblock"><h1 style="color: #2c5f98;">ANWALTSKANZLEI BEX</h1><h2 style="color: #000;">Rechtsanwalt Harald Bex</br>Viktoriastraße 28 - 52066 Aachen</h2></div>
 										
 					<a id="button_to_page_1_1"  data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none"  href="#page_1_1">Rechtsanwalt Bex</a>
-					<a id="button_to_page_1_2"  data-role="button"  data-theme="a" class="button" data-transition="none"  href="#page_1_2">Presseberichte</a>
-					<a id="button_to_page_1_3"  data-role="button"  data-theme="a" class="button" data-transition="none"  href="#page_1_3">Prozessdokumentation</a>
+					<a id="button_to_page_1_2"  data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none"  href="#page_1_2">Presseberichte</a>
+					<a id="button_to_page_1_3"  data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none"  href="#page_1_3">Prozessdokumentation</a>
 				</div>
 				
 				<!-- Footer -->					
@@ -163,7 +163,7 @@
 				<!-- Content -->	
 				<div class="content" data-role="content" >
 					<a data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-pdf_name="Freispruch-Betrug-2012.pdf">Betrug 2012</a>
-					<a data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-pdf_name="Freispruch-exhibitionistische-Handlungen-2012.pdf">Exhib. Handlungen 2012</a>
+					<a data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-pdf_name="Freispruch-exhibitionistische-Handlungen-2012.pdf">Exhibitionismus 2012</a>
 					<a data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-pdf_name="Freispruch-Fahren ohne Fahrerlaubnis-09-01-2012.pdf">Fahren o. Führersch. 2012</a>
 					<a data-role="button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-pdf_name="Freispruch-uneidliche-Falschaussage-2012.pdf">Falschaussage 2012</a>
 					
@@ -189,12 +189,14 @@
 			<!-- Anfang Seite 2 -->
 			<div  data-role="page" id="page_2" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed">
-					<span class="page_header" >Erste Hilfe</span>
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed">
+					<span class="page_header_main" >Erste Hilfe</span>
 				</div>
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
+					
+					<img src="img/bex_1.png" class="top_image">
 					<!-- <a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_3">Erstinformationen</a>
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_1">Vollmachten</a>
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_2" data-content_id="2_2">Dokumente</a> -->
@@ -233,15 +235,14 @@
 			<!-- Anfang Content-Seite Bereich 2 -->
 			<div  data-role="page" id="content_page_2" name="content_page_2" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-					<!-- <a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" data-transition="none" >Zurück</a> -->
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed">
 					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_2" >Zurück</a>
-					
-					<h1 id="content_page_2_header" name="content_page_2_header"  ></h1>
+					<span class="page_header_main" >Erste Hilfe</span>
 				</div>
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
+					<h3 id="content_page_2_header" name="content_page_2_header"></h3>
 					<div id="content_page_2_content" name="content_page_2_content"></div>
 				</div>
 				
@@ -264,15 +265,16 @@
 			<!-- Anfang Content-Seite Bereich 2_3 -->
 			<div  data-role="page" id="content_page_2_3" name="content_page_2_3" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-					<!-- <a data-rel="back" data-role="button" style="height: 16px !important;" class="ui-btn-left" data-theme="app-ios" data-transition="none"  data-content_id="2_3">Zurück</a> -->
-					<!-- <a href="#" data-rel="back" data-theme="a" id="back_button" data-content_id="2_3" data-transition="none" style="color: #fff !important;">Bäck</a> -->
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
 					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_2" >Zurück</a>
-					<h1 id="content_page_2_3_header" name="content_page_2_3_header"></h1>
+						<span class="page_header_main" >Erste Hilfe</span>
 				</div>
+				
+
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
+					<h2 id="content_page_2_3_header" name="content_page_2_3 header"></h2>
 					<div id="content_page_2_3_content" name="content_page_2_3_content"></div>
 				</div>
 				
@@ -295,15 +297,16 @@
 			<!-- Anfang Content-Seite Bereich 2_3_12 -->
 			<div  data-role="page" id="content_page_2_3_12" name="content_page_2_3_12" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
 					<!-- <a data-rel="back" data-role="button" style="height: 16px !important;" class="ui-btn-left" data-theme="app-ios" data-transition="none"  data-content_id="2_3_12">Zurück</a> -->
 					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#content_page_2_3" data-content_id="2_3_12">Zurück</a>
+					<span class="page_header_main" >Marihuanaplantagen</span>
 					
-					<h1 id="content_page_2_3_12_header" name="content_page_2_3_12_header"  ></h1>
 				</div>
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
+					<h2 id="content_page_2_3_12_header" name="content_page_2_3_12_header"  ></h2>
 					<div id="content_page_2_3_12_content" name="content_page_2_3_12_content"></div>
 				</div>
 				
@@ -329,19 +332,20 @@
 <!-- Anfang Seite 3 -->
 <div  data-role="page" id="page_3" data-theme="a">
 	<!-- Header -->
-	<div data-role="header" style="height: 38px !important;" data-position="fixed">
-		<span class="page_header" >Vergütung</span>
+	<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed">
+		<span class="page_header_main" >Vergütung</span>
 	</div>
 	
 	<!-- Content -->
 	<div class="content" data-role="content">
+		<img src="img/bex_2.png" class="top_image">
 		<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_1">Allgemeines</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_2">Beratung </a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_3">Außergerichtliche Vertretung</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_4">Gerichtliche Vertretung</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_5">Vorschuss</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_6">Rechtsschutzversicherung</a>
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_7">Beratungshilfe und Prozesskostenhilfe</a>
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_7">Prozesskostenhilfe</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_8">Strafrecht</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_9">Zivilrecht</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_3" data-content_id="3_10">Arbeitsrecht</a>
@@ -366,15 +370,15 @@
 <!-- Anfang Content-Seite Bereich 3 -->
 <div  data-role="page" id="content_page_3" name="content_page_3" data-theme="a">
 	<!-- Header -->
-	<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-		<!-- <a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" data-transition="none" >Zurück</a> -->
+	<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
 		<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_3" >Zurück</a>
 		
-		<h1 id="content_page_3_header" name="content_page_3_header"  ></h1>
+		<span class="page_header_main" >Vergütung</span>
 	</div>
 	
 	<!-- Content -->
 	<div class="content" data-role="content">
+		<h2 id="content_page_3_header" name="content_page_3_header"  ></h2>
 		<div id="content_page_3_content" name="content_page_3_content"></div>
 	</div>
 	
@@ -399,17 +403,18 @@
 <!-- Anfang Seite 4 -->
 <div  data-role="page" id="page_4" data-theme="a">
 	<!-- Header -->
-	<div data-role="header" style="height: 38px !important;" data-position="fixed">
-		<span class="page_header" >Verjährung</span>
+	<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed">
+		<span class="page_header_main" >Verjährung</span>
 	</div>
 	
 	<!-- Content -->
 	<div class="content" data-role="content">
+		<img src="img/bex_4.png" class="top_image">
 		<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_1">Regelmäßige Verjährungsfrist</a>
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_2">Verjährungsfristen bei Schadensersatzansprüchen</a>
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_3">Verjährung von Gewährleistungsansprüchen</a>
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_4">Hemmung oder Neubeginn der Verjährung</a>
-			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_5">Die wesentlichen Hemmungstatbestände</a>
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_2">Schadensersatzansprüche</a>
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_3">Gewährleistungsansprüche</a>
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_4">Hemmung oder Neubeginn</a>
+			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_5">Hemmungstatbestände</a>
 			<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#content_page_4" data-content_id="4_6">Rechtsfolgen der Verjährung</a>
 	</div>
 	
@@ -432,15 +437,15 @@
 <!-- Anfang Content-Seite Bereich 4 -->
 <div  data-role="page" id="content_page_4" name="content_page_4" data-theme="a">
 	<!-- Header -->
-	<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-		<!-- <a  data-rel="back"  style="height: 16px !important;" class="ui-btn-left"  data-theme="app-ios" data-transition="none" >Zurück</a> -->
+	<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
 		<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_4" >Zurück</a>
 		
-		<h1 id="content_page_4_header" name="content_page_4_header" ></h1>
+		<span class="page_header_main" >Verjährung</span>
 	</div>
 	
 	<!-- Content -->
 	<div class="content" data-role="content">
+		<h2 id="content_page_4_header" name="content_page_4_header"  ></h2>
 		<div id="content_page_4_content" name="content_page_4_content"></div>
 	</div>
 	
@@ -474,20 +479,21 @@
 
 
 			<!-- Anfang Seite 5 -->		
-			<div  data-role="page" id="page_5" name="page_5" data-theme="a">
+			<div  data-role="page" id="page_5" name="page_5" data-theme="a" style="border: none !important;">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-					<span class="page_header" >Kontakt</span>
+				<div data-role="header" style="height: 38px !important; text-align: center !important;"   data-position="fixed" data-tap-toggle="false">
+					<span class="page_header_main" >Kontakt</span>
 				</div>
 				
 				<!-- Content -->
-				<div class="content" data-role="content">					
+				<div class="content" data-role="content" style="border: none !important;">	
+					<img src="img/bex_3.png" class="top_image">				
 					<a data-role="button"  data-theme="e"  data-icon="arrow-r" data-iconpos="right" class="button" href="tel:00491772981966">Notruftelefon 0177 29 8 1966</a>
 					<a data-role="button"  data-theme="a"  data-icon="arrow-r" data-iconpos="right" class="button" href="tel:004924155910559">Tel.: 0241/559 10 559</a>
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_1">Anfahrtsbeschreibung</a>
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_2">Karte</a>					
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" href="mailto:bex@rechtsanwalt-bex.de">bex@rechtsanwalt-bex.de</a>
-					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" href="http://www.rechtsanwalt-bex.de" rel="external" target="_blank">www.rechtsanwalt-bex.de</a>
+					<a data-role="button"  id="website_button" data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" href="#" rel="external" target="_blank">www.rechtsanwalt-bex.de</a>
 					<a data-role="button"  data-theme="a" data-icon="arrow-r" data-iconpos="right" class="button" data-transition="none" href="#page_5_3">Impressum</a>	
 				</div>
 
@@ -513,7 +519,7 @@
 			<!-- Anfang Seite 5_1 -->		
 			<div  data-role="page" id="page_5_1" name="page_5_1" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+				<div data-role="header" style="height: 38px !important; " data-position="fixed" data-tap-toggle="false">
 					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>
 					<span class="page_header" >Anfahrtsbeschreibung</span>
 				</div>
@@ -566,9 +572,9 @@
 			<!-- Anfang Seite 5_2 -->		
 			<div  data-role="page" id="page_5_2" name="page_5_2" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
-					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>					
-					<span class="page_header" >Karte</span>
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
+					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>
+					<span class="page_header_main" >Karte</span>
 				</div>
 				
 				<!-- Content -->
@@ -596,10 +602,11 @@
 			<!-- Anfang Seite 5_3 -->		
 			<div  data-role="page" id="page_5_3" name="page_5_3" data-theme="a">
 				<!-- Header -->
-				<div data-role="header" style="height: 38px !important;" data-position="fixed" data-tap-toggle="false">
+				<div data-role="header" style="height: 38px !important; text-align: center !important;" data-position="fixed" data-tap-toggle="false">
 					<a data-role="button"  id="back_button" data-theme="a" class="button" data-transition="none" href="#page_5">Zurück</a>
-					<span class="page_header" >Impressum</span>
+					<span class="page_header_main" >Impressum</span>
 				</div>
+
 				
 				<!-- Content -->
 				<div class="content" data-role="content">
@@ -631,13 +638,13 @@
 				Berufsbezeichnung: <br>
 				Rechtsanwalt Harald Bex ist nach dem Recht der Bundesrepublik Deutschland zugelassen und Mitglied der Rechtsanwaltskammer Köln <br>
 				<br>
-				Bezeichnung der berufsrechtlichen Regelungen: <br>
+				<!-- Bezeichnung der berufsrechtlichen Regelungen: <br>
 				<a href="http://www.brak.de/seiten/pdf/Berufsregeln/BORAStand01.07.03.pdf" rel="external" target="_blank">Berufsordnung der Rechtsanwälte</a><br>
 				<a href="http://www.brak.de/seiten/pdf/Berufsregeln/FAOStand01.07.03.pdf" rel="external" target="_blank">Fachanwaltsordnung</a><br>
 				<a href="http://bundesrecht.juris.de/bundesrecht/brao/index.html" rel="external" target="_blank">Bundesrechtsanwaltsordnung</a><br>
 				<a href="http://www.brak.de/seiten/pdf/aktuelles/RVGeinspaltig.pdf" rel="external" target="_blank">Rechtsanwaltsvergütungsgesetz</a><br>
 				<a href="http://www.brak.de/seiten/pdf/RVG/GrundlagenAnwGeb.kurz.pdf" rel="external" target="_blank">Grundlagen der deutschen Anwaltsgebühren</a><br>
-				<a href="http://www.brak.de/seiten/pdf/berufsregeln.pdf" rel="external" target="_blank">Berufsregeln der Rechtsanwälte der Europäischen Gemeinschaft</a><br>
+				<a href="http://www.brak.de/seiten/pdf/berufsregeln.pdf" rel="external" target="_blank">Berufsregeln der Rechtsanwälte der Europäischen Gemeinschaft</a><br> -->
 				
 				
 				
