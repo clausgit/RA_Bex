@@ -23,6 +23,47 @@ $(document).ready(function() {
 			window.open(encodeURI('http://www.rechtsanwalt-bex.de'), '_blank', 'EnableViewPortScale=yes');	
 		});
 		
+		$('#website_button_impressum').live("click", function(e) {			
+			window.open(encodeURI('http://www.rechtsanwalt-bex.de'), '_system', 'EnableViewPortScale=yes');	
+		});
+		
+		$('a[href="#page_1"]').live("click", function(e) {
+			$('a').removeClass('ui-btn-active');
+			$('a').removeClass('ui-state-persist');
+			$('a[href="#page_1"]').addClass('ui-btn-active');
+			$('a[href="#page_1"]').addClass('ui-state-persist');
+		});
+		
+		$('a[href="#page_2"]').live("click", function(e) {
+			$('a').removeClass('ui-btn-active');
+			$('a').removeClass('ui-state-persist');
+			$('a[href="#page_2"]').addClass('ui-btn-active');
+			$('a[href="#page_2"]').addClass('ui-state-persist');
+		});
+		
+		$('a[href="#page_3"]').live("click", function(e) {
+			$('a').removeClass('ui-btn-active');
+			$('a').removeClass('ui-state-persist');
+			$('a[href="#page_3"]').addClass('ui-btn-active');
+			$('a[href="#page_3"]').addClass('ui-state-persist');
+		});
+		
+		$('a[href="#page_4"]').live("click", function(e) {
+			$('a').removeClass('ui-btn-active');
+			$('a').removeClass('ui-state-persist');
+			$('a[href="#page_4"]').addClass('ui-btn-active');
+			$('a[href="#page_4"]').addClass('ui-state-persist');
+		});
+		
+		$('a[href="#page_5"]').live("click", function(e) {
+			$('a').removeClass('ui-btn-active');
+			$('a').removeClass('ui-state-persist');
+			$('a[href="#page_5"]').addClass('ui-btn-active');
+			$('a[href="#page_5"]').addClass('ui-state-persist');
+		});
+		
+
+		
 		/*$('a[data-theme="app-ios"]').live("click", function(e) {
 			$globalContentID = $(this).data("content_id");  				
 			//alert($globalContentID);
@@ -233,6 +274,102 @@ $( '#content_page_4' ).live( 'pagebeforeshow',function(event, ui){
 	//window.open($temp_document_selected,'_blank')
 	window.location = ($temp_document_selected); 
 });*/
+
+
+
+
+/*$( '#page_1' ).live( 'pagebeforeshow',function(event, ui){	
+
+	$('a').removeClass('ui-btn-active');
+	$('a').removeClass('ui-state-persist');
+	$('#footer_content_page_1').trigger('create');
+	//$('#footer_content_page_1').listview('refresh');
+	
+
+});
+
+$( '#page_2' ).live( 'pagebeforeshow',function(event, ui){	
+
+	$('a').removeClass('ui-btn-active');
+	$('a').removeClass('ui-state-persist');
+	$('#footer_content_page_2').trigger('create');
+	//$('#footer_content_page_2').listview('refresh');
+
+});
+
+
+$( '#page_3' ).live( 'pagebeforeshow',function(event, ui){	
+
+	$('a').removeClass('ui-btn-active');
+	$('a').removeClass('ui-state-persist');
+	$('#footer_content_page_3').trigger('create');
+	//$('#footer_content_page_3').listview('refresh');
+
+});
+
+$( '#page_4' ).live( 'pagebeforeshow',function(event, ui){	
+
+	$('a').removeClass('ui-btn-active');
+	$('a').removeClass('ui-state-persist');
+	$('#footer_content_page_4').trigger('create');
+	//$('#footer_content_page_4').listview('refresh');
+
+});
+
+$( '#page_5' ).live( 'pagebeforeshow',function(event, ui){	
+
+	$('a').removeClass('ui-btn-active');
+	$('a').removeClass('ui-state-persist');
+	$('#footer_content_page_5').trigger('create');
+	//$('#footer_content_page_5').listview('refresh');
+
+});*/
+
+/*.apple-navbar-ui li a[data-icon="features"] 
+.apple-navbar-ui li a[data-icon="brands"] 
+.apple-navbar-ui li a[data-icon="fees"] 
+.apple-navbar-ui li a[data-icon="contact"] 
+.apple-navbar-ui li a[data-icon="about"] */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
